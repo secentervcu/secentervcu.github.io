@@ -1,53 +1,46 @@
-$navbar-bg: #1d2331ff
-$navbar-text: #e8e4e1ff
-$navbar-hover: #6ba3eaff
+@import 'colors.sass'
 
 .material-icons
   font-size: 20px
 
 .navbar
   transition: all 0.5s
-  padding: 15px 0
-  background: $navbar-bg
+  display: flex
+  justify-content: space-between
+  align-content: center !important
+  padding-left: .75rem
+  padding-right: .75rem
 
-  .navbar-content
-    display: flex
-    justify-content: space-between
+  .logo
+    line-height: 0
+    margin-left: -10px
     align-items: center
-    color: $navbar-text
-    padding-left: .75rem
-    padding-right: .75rem
+    display: flex
+    img
+      max-height: 40px
+      margin-right: 6px
 
-    .logo
-      font-size: 1.5rem
-      font-weight: 300
-      color: $navbar-text
+  .menu
+    list-style: none
+    display: flex
+    margin: 0
+    padding: 0
 
-      sup
-        font-size: 0.6rem
-        margin-left: 0.2rem
+    .menu-item
+      position: relative
 
-    .menu
-      list-style: none
-      display: flex
-      margin: 0
-      padding: 0
+      a
+        display: flex
+        align-items: center
+        justify-content: space-between
+        padding: 10px 0 10px 30px
+        font-family: 'Axis', sans-serif
+        text-transform: uppercase
+        font-size: 16px
+        font-weight: 700
+        color: $se-white
+        white-space: nowrap
+        transition: 0.3s
 
-      .menu-item
-        position: relative
-
-        a
-          display: flex
-          align-items: center
-          justify-content: space-between
-          padding: 10px 0 10px 30px
-          font-family: 'Axis', sans-serif
-          text-transform: uppercase
-          font-size: 16px
-          font-weight: 700
-          color: $navbar-text
-          white-space: nowrap
-          transition: 0.3s
-
-          &:hover
-            color: $navbar-hover
+        &:hover
+          color: $se-light-blue
