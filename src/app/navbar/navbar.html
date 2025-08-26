@@ -1,0 +1,22 @@
+<nav class="navbar">
+  <!-- Logo -->
+  <div class="navbar-content">
+    <div class="logo">
+      <span>sesə<sup>lab</sup></span>
+    </div>
+
+    <!-- Menu -->
+    <ul class="menu">
+      <li class="menu-item"><a routerLink="/about">{{ 'navbar.about' | translate }}</a></li>
+      <li class="menu-item"><a routerLink="/team">{{ 'navbar.team' | translate }}</a></li>
+      <li class="menu-item"><a routerLink="/research">{{ 'navbar.research' | translate }}</a></li>
+      <li class="menu-item">
+        <a routerLink="/education">
+          <span>{{ 'navbar.education' | translate }}</span>
+          <i class="material-icons">chevron_right</i>
+        </a>
+      </li>
+      <li class="menu-item"><a routerLink="/contact">{{ 'navbar.contact' | translate }}</a></li>
+    </ul>
+  </div>
+</nav>

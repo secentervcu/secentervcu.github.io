@@ -1,0 +1,53 @@
+$navbar-bg: #1d2331ff
+$navbar-text: #e8e4e1ff
+$navbar-hover: #6ba3eaff
+
+.material-icons
+  font-size: 20px
+
+.navbar
+  transition: all 0.5s
+  padding: 15px 0
+  background: $navbar-bg
+
+  .navbar-content
+    display: flex
+    justify-content: space-between
+    align-items: center
+    color: $navbar-text
+    padding-left: .75rem
+    padding-right: .75rem
+
+    .logo
+      font-size: 1.5rem
+      font-weight: 300
+      color: $navbar-text
+
+      sup
+        font-size: 0.6rem
+        margin-left: 0.2rem
+
+    .menu
+      list-style: none
+      display: flex
+      margin: 0
+      padding: 0
+
+      .menu-item
+        position: relative
+
+        a
+          display: flex
+          align-items: center
+          justify-content: space-between
+          padding: 10px 0 10px 30px
+          font-family: 'Axis', sans-serif
+          text-transform: uppercase
+          font-size: 16px
+          font-weight: 700
+          color: $navbar-text
+          white-space: nowrap
+          transition: 0.3s
+
+          &:hover
+            color: $navbar-hover
