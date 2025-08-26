@@ -1,10 +1,11 @@
 import { Component, signal } from '@angular/core';
-import {Navbar} from './navbar/navbar';
-import {LogoDisplay} from './logo-display/logo-display';
+import {RouterOutlet} from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  imports: [Navbar, LogoDisplay],
+  imports: [
+    RouterOutlet
+  ],
   templateUrl: './app.html',
   styleUrl: './app.sass'
 })
