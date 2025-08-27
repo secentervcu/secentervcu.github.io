@@ -6,7 +6,7 @@
 
     <!-- Menu -->
     <ul class="menu">
-      <li class="menu-item"><a routerLink="/about">{{ 'navbar.about' | translate }}</a></li>
+        <li class="menu-item"><a [routerLink]="[]" fragment="about">{{ 'navbar.about' | translate }}</a></li>
       <li class="menu-item"><a routerLink="/team">{{ 'navbar.team' | translate }}</a></li>
       <li class="menu-item"><a routerLink="/research">{{ 'navbar.research' | translate }}</a></li>
       <li class="menu-item">
