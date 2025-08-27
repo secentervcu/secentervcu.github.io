@@ -1,4 +1,4 @@
-<nav class="navbar">
+<nav #nav class="navbar">
   <!-- Logo -->
   <a href="/research" target="_self" rel="noopener noreferrer" class="logo">
     <img src="/assets/images/logo-title.png" alt="Se Lab">
@@ -6,7 +6,7 @@
 
     <!-- Menu -->
     <ul class="menu">
-        <li class="menu-item"><a [routerLink]="[]" fragment="about">{{ 'navbar.about' | translate }}</a></li>
+      <li class="menu-item"><a [routerLink]="[]" fragment="about" (click)="scrollToSection('about')">{{ 'navbar.about' | translate }}</a></li>
       <li class="menu-item"><a routerLink="/team">{{ 'navbar.team' | translate }}</a></li>
       <li class="menu-item"><a routerLink="/research">{{ 'navbar.research' | translate }}</a></li>
       <li class="menu-item">
