@@ -16,6 +16,164 @@
         "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.",
         "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos."
       ]
+    },
+    "team": {
+      "title": "Our team",
+      "subsections": [
+        {
+          "title": "Faculty Members",
+          "members": [
+            {
+              "name": "Faculty One",
+              "title": "Full Professor",
+              "website": "https://www.google.com",
+              "email": "some@mail.com",
+              "twitter": "https://x.com/some-twitter-account",
+              "picture": "user.jpg"
+            },
+            {
+              "name": "Faculty Two",
+              "title": "Full Professor",
+              "website": "https://www.google.com",
+              "email": "some@mail.com",
+              "twitter": "some-twitter-account",
+              "picture": "user.jpg"
+            },
+            {
+              "name": "Faculty Two",
+              "title": "Full Professor",
+              "website": "https://www.google.com",
+              "email": "some@mail.com",
+              "twitter": "some-twitter-account",
+              "picture": "user.jpg"
+            },
+            {
+              "name": "Faculty Two",
+              "title": "Full Professor",
+              "website": "https://www.google.com",
+              "email": "some@mail.com",
+              "twitter": "some-twitter-account",
+              "picture": "user.jpg"
+            },
+            {
+              "name": "Faculty Two",
+              "title": "Full Professor",
+              "website": "https://www.google.com",
+              "email": "some@mail.com",
+              "twitter": "some-twitter-account",
+              "picture": "user.jpg"
+            },
+            {
+              "name": "Faculty Two",
+              "title": "Full Professor",
+              "website": "https://www.google.com",
+              "email": "some@mail.com",
+              "twitter": "some-twitter-account",
+              "picture": "user.jpg"
+            }
+          ]
+        },
+        {
+          "title": "Research associates",
+          "members": [
+            {
+              "name": "Research associate One",
+              "title": "Postdoctoral Researcher",
+              "website": "https://www.google.com",
+              "email": "some@mail.com",
+              "twitter": "https://x.com/some-twitter-account",
+              "picture": "user.jpg"
+            },
+            {
+              "name": "Research associate Two",
+              "title": "Postdoctoral Researcher",
+              "website": "https://www.google.com",
+              "email": "some@mail.com",
+              "twitter": "some-twitter-account",
+              "picture": "user.jpg"
+            },
+            {
+              "name": "Research associate Two",
+              "title": "Postdoctoral Researcher",
+              "website": "https://www.google.com",
+              "email": "some@mail.com",
+              "twitter": "some-twitter-account",
+              "picture": "user.jpg"
+            },
+            {
+              "name": "Research associate Two",
+              "title": "Research Fellow",
+              "website": "https://www.google.com",
+              "email": "some@mail.com",
+              "twitter": "some-twitter-account",
+              "picture": "user.jpg"
+            },
+            {
+              "name": "Research associate Two",
+              "title": "Research Fellow",
+              "website": "https://www.google.com",
+              "email": "some@mail.com",
+              "twitter": "some-twitter-account",
+              "picture": "user.jpg"
+            }
+          ]
+        },
+        {
+          "title": "PH.D Students",
+          "members": [
+            {
+              "name": "Ph.D Student One",
+              "title": "Ph.D Student",
+              "website": "https://www.google.com",
+              "email": "some@mail.com",
+              "twitter": "https://x.com/some-twitter-account",
+              "picture": "user.jpg"
+            },
+            {
+              "name": "Ph.D Student Two",
+              "title": "Ph.D Student",
+              "website": "https://www.google.com",
+              "email": "some@mail.com",
+              "twitter": "some-twitter-account",
+              "picture": "user.jpg"
+            },
+            {
+              "name": "Ph.D Student Two",
+              "title": "Ph.D Student",
+              "website": "https://www.google.com",
+              "email": "some@mail.com",
+              "twitter": "some-twitter-account",
+              "picture": "user.jpg"
+            },
+            {
+              "name": "Ph.D Student Two",
+              "title": "Ph.D Student",
+              "website": "https://www.google.com",
+              "email": "some@mail.com",
+              "twitter": "some-twitter-account",
+              "picture": "user.jpg"
+            },
+            {
+              "name": "Ph.D Student Two",
+              "title": "Ph.D Student",
+              "website": "https://www.google.com",
+              "email": "some@mail.com",
+              "twitter": "some-twitter-account",
+              "picture": "user.jpg"
+            }
+          ]
+        }
+      ],
+      "alumni": {
+        "title": "Alumni",
+        "list": [
+          {
+            "name": "First Alumni",
+            "title": "Ph.D. in Computer Science",
+            "advisor": "Some Advisor"
+          }
+        ]
+      }
     }
   }
 }

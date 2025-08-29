@@ -1,0 +1,52 @@
+<section id="team" class="team">
+
+  <div class="container">
+
+    <header class="section-header">
+      <h1>{{ 'sections.team.title' | translate }}</h1>
+    </header>
+
+    @for (subsection of ('sections.team.subsections' | translate : {} : 'json'); track subsection.title) {
+      <header class="section-header">
+        <h2>{{ subsection.title | translate }}</h2>
+      </header>
+      <div class="members row gy-4 justify-content-center">
+        @for (member of subsection.members; track $index) {
+          <div class="col-lg-3 col-md-6 col-sm-8 d-flex justify-content-center">
+            <div class="member-data">
+              <div class="member-img">
+                <img [src]="'../assets/images/team/' + member.picture" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>{{ member.name | translate }}</h4>
+                <span class="member-title">{{ member.title | translate }}</span>
+                <p class="member-contact">
+                  <a [href]="member.website"><i class="material-icons" data-toggle="tooltip" data-placement="bottom"
+                                                title="Personal page">language</i></a>
+                  <a [href]="'mailto:' + member.email"><i class="material-icons" data-toggle="tooltip"
+                                                          data-placement="bottom" [title]="member.email">email</i></a>
+                  <a [href]="'https://x.com/' + member.twitter"><i class="material-icons" data-toggle="tooltip"
+                                                                   data-placement="bottom"
+                                                                   [title]="'@' + member.twitter">clear</i></a>
+                </p>
+              </div>
+            </div>
+          </div>
+        }
+      </div>
+    }
+
+    <header class="section-header">
+      <h2>{{ 'sections.team.alumni.title' | translate }}</h2>
+    </header>
+    @for (alumni of ('sections.team.alumni.list' | translate : {} : 'json'); track alumni.name) {
+      <div class="row gy-4 justify-content-center">
+        <div class="col-lg-8 col-md-10 d-flex justify-content-center">
+          <p class="alumni">
+            <span class="name">{{ alumni.name | translate }}</span> {{ alumni.title | translate }} - advisor {{ alumni.advisor | translate }} <br>
+          </p>
+        </div>
+      </div>
+    }
+  </div>
+</section>
