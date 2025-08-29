@@ -7,8 +7,8 @@
     <!-- Menu -->
     <ul class="menu">
       <li class="menu-item"><a [routerLink]="[]" fragment="about" (click)="scrollToSection('about')">{{ 'navbar.about' | translate }}</a></li>
-      <li class="menu-item"><a routerLink="/team">{{ 'navbar.team' | translate }}</a></li>
-      <li class="menu-item"><a routerLink="/research">{{ 'navbar.research' | translate }}</a></li>
+      <li class="menu-item"><a [routerLink]="[]" fragment="team">{{ 'navbar.team' | translate }}</a></li>
+      <li class="menu-item"><a [routerLink]="[]" fragment="research">{{ 'navbar.research' | translate }}</a></li>
       <li class="menu-item">
         <a routerLink="/education">
           <span>{{ 'navbar.education' | translate }}</span>

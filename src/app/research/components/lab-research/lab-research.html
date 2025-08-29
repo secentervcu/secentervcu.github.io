@@ -1,0 +1,32 @@
+<section id="research" class="research">
+
+  <div class="container">
+    <header class="section-header">
+      <h1>{{ 'sections.labResearch.title' | translate }}</h1>
+    </header>
+
+    <div class="row gx-0 justify-content-center">
+
+      <div class="col-lg-6 d-flex flex-column justify-content-center aos-init aos-animate" data-aos="fade-up"
+           data-aos-delay="200">
+        <div class="content justify-content-center">
+          <p>{{ 'sections.labResearch.description' | translate }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-0 mt-5 mt-lg-4 d-flex">
+        <div class="row align-self-center g-4">
+          @for (researchArea of ('sections.labResearch.researchAreas' | translate); track $index) {
+            <div class="col-lg-3 col-md-4 col-sm-6 aos-init aos-animate" data-aos="zoom-out" data-aos-delay="200">
+              <div class="research-box d-flex align-items-center">
+                <h3>{{ researchArea }}</h3>
+              </div>
+            </div>
+          }
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
