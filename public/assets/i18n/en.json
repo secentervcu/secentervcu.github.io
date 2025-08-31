@@ -220,6 +220,14 @@
         "vcu",
         "vcu"
       ]
+    },
+    "education": {
+      "title": "Education",
+      "text": [
+        "Are you a student?",
+        "In the dedicated page you will find information about internship opportunities, topics of interest for Bachelor's and Master's Thesis, and a collection of useful documents."
+      ],
+      "buttonText": "Find out more"
     }
   }
 }
