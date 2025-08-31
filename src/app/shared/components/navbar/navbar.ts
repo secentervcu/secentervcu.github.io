@@ -1,7 +1,8 @@
-import {Component, ElementRef, ViewChild} from '@angular/core';
+import {Component, ElementRef, Input, ViewChild} from '@angular/core';
 import {TranslatePipe} from '@ngx-translate/core';
 import {RouterLink} from '@angular/router';
 import {ViewportScroller} from '@angular/common';
+import {NavItem} from './nav-item.interface';
 
 @Component({
   selector: 'app-navbar',
@@ -14,6 +15,7 @@ import {ViewportScroller} from '@angular/common';
   ]
 })
 export class Navbar {
+  @Input() navItems: NavItem[] = [];
   @ViewChild('nav') nav!: ElementRef<HTMLElement>;
 
   constructor(private viewportScroller: ViewportScroller) {

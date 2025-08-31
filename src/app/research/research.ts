@@ -7,6 +7,7 @@ import {LabResearch} from './components/lab-research/lab-research';
 import {Collaborations} from './components/collaborations/collaborations';
 import {Education} from './components/education/education';
 import {Footer} from '../shared/components/footer/footer';
+import {NavItem} from '../shared/components/navbar/nav-item.interface';
 
 @Component({
   selector: 'app-research',
@@ -24,5 +25,11 @@ import {Footer} from '../shared/components/footer/footer';
   styleUrl: './research.sass'
 })
 export class Research {
-
+  menuItems: NavItem[] = [
+    {key: 'navbar.about', fragment: 'about'},
+    {key: 'navbar.team', fragment: 'team'},
+    {key: 'navbar.research', fragment: 'research'},
+    {key: 'navbar.education', fragment: 'education', icon: 'chevron_right'},
+    {key: 'navbar.contact', fragment: 'contact'}
+  ];
 }

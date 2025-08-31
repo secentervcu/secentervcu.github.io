@@ -2,16 +2,18 @@
   <a href="/research" target="_self" rel="noopener noreferrer" class="logo">
     <img src="/assets/images/logo-title.png" alt="Se Lab">
   </a>
-    <ul class="menu">
-      <li class="menu-item"><a [routerLink]="[]" fragment="about" (click)="scrollToSection('about')">{{ 'navbar.about' | translate }}</a></li>
-      <li class="menu-item"><a [routerLink]="[]" fragment="team">{{ 'navbar.team' | translate }}</a></li>
-      <li class="menu-item"><a [routerLink]="[]" fragment="research">{{ 'navbar.research' | translate }}</a></li>
+  <ul class="menu">
+    @for (item of navItems; track item.fragment) {
       <li class="menu-item">
-        <a [routerLink]="[]" fragment="education">
-          <span>{{ 'navbar.education' | translate }}</span>
-          <i class="material-icons">chevron_right</i>
+        <a [routerLink]="item.routerLink || []" [fragment]="item.fragment" (click)="scrollToSection(item.fragment)">
+          @if (item.icon) {
+            <span>{{ item.key | translate }}</span>
+            <i class="material-icons">{{ item.icon }}</i>
+          } @else {
+            {{ item.key | translate }}
+          }
         </a>
       </li>
-      <li class="menu-item"><a routerLink="/contact">{{ 'navbar.contact' | translate }}</a></li>
-    </ul>
+    }
+  </ul>
 </nav>
