@@ -4,6 +4,7 @@ import {Navbar} from '../shared/components/navbar/navbar';
 import {About} from './components/about/about';
 import {Team} from './components/team/team';
 import {LabResearch} from './components/lab-research/lab-research';
+import {Collaborations} from './components/collaborations/collaborations';
 
 @Component({
   selector: 'app-research',
@@ -12,7 +13,8 @@ import {LabResearch} from './components/lab-research/lab-research';
     LogoDisplay,
     About,
     Team,
-    LabResearch
+    LabResearch,
+    Collaborations
   ],
   templateUrl: './research.html',
   styleUrl: './research.sass'
