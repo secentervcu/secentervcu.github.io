@@ -7,13 +7,7 @@
     @let logos = ('sections.collaborations.logos' | translate);
 
     <swiper-container #swiper
-      init="false"
-      pagination="true"
-      pagination-clickable="true"
-      slides-per-view="6"
-      space-between="120"
-      autoplay="true"
-      loop="true">
+      init="false">
       @for (logo of logos; track $index) {
         <swiper-slide #swiperSlide [attr.aria-label]="($index + 1) + ' / ' + logos.length">
           <img [src]="'../assets/images/collaborations/' + logo + '.png'" class="img-fluid" [alt]="logo">
