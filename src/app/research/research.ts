@@ -6,6 +6,7 @@ import {Team} from './components/team/team';
 import {LabResearch} from './components/lab-research/lab-research';
 import {Collaborations} from './components/collaborations/collaborations';
 import {Education} from './components/education/education';
+import {Footer} from '../shared/components/footer/footer';
 
 @Component({
   selector: 'app-research',
@@ -16,7 +17,8 @@ import {Education} from './components/education/education';
     Team,
     LabResearch,
     Collaborations,
-    Education
+    Education,
+    Footer
   ],
   templateUrl: './research.html',
   styleUrl: './research.sass'
