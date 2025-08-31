@@ -20,7 +20,6 @@ export class App implements OnInit, AfterViewInit {
       easing: "ease-in-out",
       once: true,
       mirror: false
-      // startEvent: 'scroll'
     });
   }
   ngAfterViewInit(): void {
