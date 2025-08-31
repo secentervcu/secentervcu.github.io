@@ -1,0 +1,31 @@
+@use 'colors' as *
+
+section
+  padding-top: 0
+
+h3
+  padding-top: 1.5em
+
+.section-header
+  padding-bottom: 40px
+
+.collaborations
+  background-color: $se-white
+
+swiper-container::part(pagination)
+  position: relative
+  margin-top: 2em
+
+swiper-container::part(bullet)
+  background: $se-gray-blue
+  border: 1px solid $se-gray-blue
+  width: 12px
+  height: 12px
+  opacity: 1
+
+swiper-container::part(bullet-active)
+  background: $se-darker
+  border: 1px solid $se-darker
+  width: 12px
+  height: 12px
+  opacity: 1
