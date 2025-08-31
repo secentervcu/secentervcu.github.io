@@ -9,6 +9,4 @@ import {TranslatePipe} from '@ngx-translate/core';
   templateUrl: './lab-research.html',
   styleUrl: './lab-research.sass'
 })
-export class LabResearch {
-
-}
+export class LabResearch {}
