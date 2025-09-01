@@ -2,45 +2,89 @@
 
 .material-icons
   font-size: 20px
+  color: $se-white
+
+ul
+  list-style: none
+  margin: 0
+  li
+    position: relative
+
+.logo
+  line-height: 0
+  margin-left: -10px
+  align-items: center
+  display: flex
+  img
+    max-height: 40px
+    margin-right: 6px
+
+.mobile-nav, .mobile-nav-open
+  display: none
+
+.menu-item a
+  display: flex
+  align-items: center
+  justify-content: space-between
+  white-space: nowrap
+  font-family: 'Axis', sans-serif
+  font-weight: 700
+  text-transform: uppercase
+  transition: 0.3s
+  color: $se-white
+  &:hover
+    color: $se-light-blue
 
 .navbar
   transition: all 0.5s
   display: flex
   justify-content: space-between
   align-content: center !important
-  padding: 0 .75rem
-
-  .logo
-    line-height: 0
-    margin-left: -10px
-    align-items: center
-    display: flex
-    img
-      max-height: 40px
-      margin-right: 6px
-
+  padding: 0
   .menu
-    list-style: none
     display: flex
-    margin: 0
     padding: 0
+    .menu-item a
+      padding: 10px 0 10px 30px
+      font-size: 16px
+      cursor: pointer
 
-    .menu-item
-      position: relative
+.mobile-nav
+  position: fixed
+  overflow: hidden
+  inset: 0
+  transition: 0.3s
+  &.open
+    background: rgba(23, 28, 40, 0.8)
+  .menu-item a
+    padding: 10px 40px
+    font-size: 15px
+  ul
+    align-items: center
+    display: block
+    position: absolute
+    top: 55px
+    right: 15px
+    padding: 10px 0
+    border-radius: 5px
+    background-color: $se-dark
+    overflow-y: auto
+    transition: 0.3s
 
-      a
-        display: flex
-        align-items: center
-        justify-content: space-between
-        padding: 10px 0 10px 30px
-        font-family: 'Axis', sans-serif
-        text-transform: uppercase
-        font-size: 16px
-        font-weight: 700
-        color: $se-white
-        white-space: nowrap
-        transition: 0.3s
-        cursor: pointer
-
-        &:hover
-          color: $se-light-blue
+@media (max-width: 991px)
+  .navbar
+    display: none
+  .mobile-nav
+    display: block
+  .mobile-nav-open, .mobile-nav-close
+    align-content: center
+    cursor: pointer
+    display: block
+    line-height: 0
+    transition: 0.5s
+    top: 15px
+    right: 15px
+    .material-icons
+      font-size: 28px
+  .mobile-nav-close
+    position: absolute

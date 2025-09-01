@@ -1,4 +1,4 @@
-import {AfterViewInit, Component, OnInit, signal} from '@angular/core';
+import { Component, OnInit, signal} from '@angular/core';
 import {RouterOutlet} from '@angular/router';
 import AOS from 'aos';
 
@@ -10,7 +10,7 @@ import AOS from 'aos';
   templateUrl: './app.html',
   styleUrl: './app.sass'
 })
-export class App implements OnInit, AfterViewInit {
+export class App implements OnInit {
 
   protected readonly title = signal('SELabVcu.github.io');
 
@@ -21,9 +21,6 @@ export class App implements OnInit, AfterViewInit {
       once: true,
       mirror: false
     });
-  }
-  ngAfterViewInit(): void {
-    AOS.refresh()
   }
 
 }
