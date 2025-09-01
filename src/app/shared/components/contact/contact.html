@@ -1,0 +1,40 @@
+<section id="contact" class="app-section-contact">
+  <div class="container" data-aos="fade-up">
+    <header class="section-header">
+      <h1>{{'sections.contact.title' | translate }}</h1>
+    </header>
+
+    <div class="row gy-4 justify-content-center">
+      @for (contact of ('sections.contact.contacts' | translate : {} : 'json'); track $index)
+      {
+        <div class="col-lg-3 col-md-4">
+          <div class="info-box">
+            <i class="material-icons">{{contact.icon}}</i>
+            <h3>{{contact.title}}</h3>
+            <p>
+              @if (contact.link && contact.info) {
+                <a [href]="contact.link" target="_blank" rel="noopener noreferrer">
+                  {{contact.linkText ?? contact.link}}
+                </a>
+                <br>
+                {{contact.info}}
+              } @else {
+                <br>
+                @if (contact.info) {
+                  {{ contact.info }}
+                }
+                @if (contact.link) {
+                  <a [href]="contact.link" target="_blank" rel="noopener noreferrer">
+                    {{contact.linkText ?? contact.link}}
+                  </a>
+                }
+              }
+            </p>
+
+          </div>
+        </div>
+      }
+    </div>
+  </div>
+</section>
+

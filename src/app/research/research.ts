@@ -8,6 +8,7 @@ import {Collaborations} from './components/collaborations/collaborations';
 import {Education} from './components/education/education';
 import {Footer} from '../shared/components/footer/footer';
 import {NavItem} from '../shared/components/navbar/nav-item.interface';
+import {Contact} from '../shared/components/contact/contact';
 
 @Component({
   selector: 'app-research',
@@ -19,7 +20,8 @@ import {NavItem} from '../shared/components/navbar/nav-item.interface';
     LabResearch,
     Collaborations,
     Education,
-    Footer
+    Footer,
+    Contact
   ],
   templateUrl: './research.html',
   styleUrl: './research.sass'

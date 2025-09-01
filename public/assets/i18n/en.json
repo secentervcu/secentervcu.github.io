@@ -228,6 +228,28 @@
         "In the dedicated page you will find information about internship opportunities, topics of interest for Bachelor's and Master's Thesis, and a collection of useful documents."
       ],
       "buttonText": "Find out more"
+    },
+    "contact": {
+      "title": "Contact",
+      "contacts": [
+        {
+          "title": "Address",
+          "icon": "location_on",
+          "link": "https://egr.vcu.edu/resources/ops-management/buildings/",
+          "linkText": "VCU ERB",
+          "info" : "Room 2337"
+        },
+        {
+          "title": "telephone",
+          "icon": "call",
+          "info" : "(804) XXX-XXXX"
+        },
+        {
+          "title": "Email",
+          "icon": "mail",
+          "link": "secenter@vcu.edu"
+        }
+      ]
     }
   }
 }
