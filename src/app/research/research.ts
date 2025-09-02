@@ -9,6 +9,7 @@ import {Education} from './components/education/education';
 import {Footer} from '../shared/components/footer/footer';
 import {NavItem} from '../shared/components/navbar/nav-item.interface';
 import {Contact} from '../shared/components/contact/contact';
+import {GoUp} from '../shared/components/go-up/go-up';
 
 @Component({
   selector: 'app-research',
@@ -21,7 +22,8 @@ import {Contact} from '../shared/components/contact/contact';
     Collaborations,
     Education,
     Footer,
-    Contact
+    Contact,
+    GoUp
   ],
   templateUrl: './research.html',
   styleUrl: './research.sass'
