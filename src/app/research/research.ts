@@ -5,11 +5,11 @@ import {About} from './components/about/about';
 import {Team} from './components/team/team';
 import {LabResearch} from './components/lab-research/lab-research';
 import {Collaborations} from './components/collaborations/collaborations';
-import {Education} from './components/education/education';
 import {Footer} from '../shared/components/footer/footer';
 import {NavItem} from '../shared/components/navbar/nav-item.interface';
 import {Contact} from '../shared/components/contact/contact';
 import {GoUp} from '../shared/components/go-up/go-up';
+import {Faq} from './components/faq/faq';
 
 @Component({
   selector: 'app-research',
@@ -20,10 +20,10 @@ import {GoUp} from '../shared/components/go-up/go-up';
     Team,
     LabResearch,
     Collaborations,
-    Education,
     Footer,
     Contact,
-    GoUp
+    GoUp,
+    Faq
   ],
   templateUrl: './research.html',
   styleUrl: './research.sass'
@@ -33,7 +33,7 @@ export class Research {
     {key: 'navbar.about', fragment: 'about'},
     {key: 'navbar.team', fragment: 'team'},
     {key: 'navbar.research', fragment: 'research'},
-    {key: 'navbar.education', fragment: 'education', icon: 'chevron_right'},
-    {key: 'navbar.contact', fragment: 'contact'}
+    {key: 'navbar.faq', fragment: 'faq'},
+    {key: 'navbar.contact', fragment: 'contact'},
   ];
 }

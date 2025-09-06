@@ -1,0 +1,29 @@
+@use 'colors' as *
+
+.app-section-faq
+  .row
+    padding-left: 10%
+    padding-right: 10%
+    .accordion
+      .accordion-item
+        background-color: transparent
+        border-bottom-color: rgba(0, 0, 0, 0.125)
+        border-bottom-left-radius: 2px
+        border-bottom-right-radius: 2px
+
+  .accordion-collapse
+    max-height: 0
+    overflow: hidden
+    transition: max-height 0.35s ease, padding 0.35s ease
+
+    &.show
+      max-height: 500px
+      padding-top: 1rem
+      padding-bottom: 1rem
+
+  .accordion-button
+    cursor: pointer
+    background-color: $se-light-blue
+
+    &.collapsed
+      background-color: transparent

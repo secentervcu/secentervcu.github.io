@@ -1,0 +1,38 @@
+<section id="faq" class="app-section-faq">
+  <div class="container" data-aos="fade-up">
+    <header class="section-header">
+      <h1>{{'sections.faq.title' | translate}}</h1>
+    </header>
+
+    <div class="row">
+      <div class="accordion accordion-flush" id="faqlist1">
+        @for (question of ('sections.faq.questions' | translate : {} : 'json');  track $index)
+        {
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      [attr.data-bs-target]="'#faq-content-' + $index"
+                      (click)="toggle($index)"
+                      [class.collapsed]="!isOpen($index)"
+              >
+                {{question.question}}
+              </button>
+            </h2>
+            <div [attr.id]="'#faq-content-' + $index"
+                 class="accordion-collapse collapse show"
+                 data-bs-parent="#faqlist1"
+                 [class.show]="isOpen($index)"
+            >
+              <div class="accordion-body">
+                {{ question.answer }}
+              </div>
+            </div>
+          </div>
+        }
+      </div>
+    </div>
+  </div>
+
+</section>

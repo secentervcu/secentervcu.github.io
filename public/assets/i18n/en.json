@@ -4,6 +4,7 @@
     "team": "Team",
     "research": "Research",
     "education": "Education",
+    "faq": "FAQ",
     "contact": "Contact"
   },
   "sections": {
@@ -29,7 +30,7 @@
               "website": "https://www.google.com",
               "email": "some@mail.com",
               "twitter": "https://x.com/some-twitter-account",
-              "picture": "user.jpg"
+              "picture": "rodrigo_spinola.jpg"
             },
             {
               "name": "Faculty Two",
@@ -37,7 +38,7 @@
               "website": "https://www.google.com",
               "email": "some@mail.com",
               "twitter": "some-twitter-account",
-              "picture": "user.jpg"
+              "picture": "rodrigo_spinola.jpg"
             },
             {
               "name": "Faculty Two",
@@ -45,7 +46,7 @@
               "website": "https://www.google.com",
               "email": "some@mail.com",
               "twitter": "some-twitter-account",
-              "picture": "user.jpg"
+              "picture": "rodrigo_spinola.jpg"
             },
             {
               "name": "Faculty Two",
@@ -53,7 +54,7 @@
               "website": "https://www.google.com",
               "email": "some@mail.com",
               "twitter": "some-twitter-account",
-              "picture": "user.jpg"
+              "picture": "rodrigo_spinola.jpg"
             },
             {
               "name": "Faculty Two",
@@ -61,7 +62,7 @@
               "website": "https://www.google.com",
               "email": "some@mail.com",
               "twitter": "some-twitter-account",
-              "picture": "user.jpg"
+              "picture": "rodrigo_spinola.jpg"
             },
             {
               "name": "Faculty Two",
@@ -69,7 +70,7 @@
               "website": "https://www.google.com",
               "email": "some@mail.com",
               "twitter": "some-twitter-account",
-              "picture": "user.jpg"
+              "picture": "rodrigo_spinola.jpg"
             }
           ]
         },
@@ -82,7 +83,7 @@
               "website": "https://www.google.com",
               "email": "some@mail.com",
               "twitter": "https://x.com/some-twitter-account",
-              "picture": "user.jpg"
+              "picture": "rodrigo_spinola.jpg"
             },
             {
               "name": "Research associate Two",
@@ -90,7 +91,7 @@
               "website": "https://www.google.com",
               "email": "some@mail.com",
               "twitter": "some-twitter-account",
-              "picture": "user.jpg"
+              "picture": "rodrigo_spinola.jpg"
             },
             {
               "name": "Research associate Two",
@@ -98,7 +99,7 @@
               "website": "https://www.google.com",
               "email": "some@mail.com",
               "twitter": "some-twitter-account",
-              "picture": "user.jpg"
+              "picture": "rodrigo_spinola.jpg"
             },
             {
               "name": "Research associate Two",
@@ -106,7 +107,7 @@
               "website": "https://www.google.com",
               "email": "some@mail.com",
               "twitter": "some-twitter-account",
-              "picture": "user.jpg"
+              "picture": "rodrigo_spinola.jpg"
             },
             {
               "name": "Research associate Two",
@@ -114,7 +115,7 @@
               "website": "https://www.google.com",
               "email": "some@mail.com",
               "twitter": "some-twitter-account",
-              "picture": "user.jpg"
+              "picture": "rodrigo_spinola.jpg"
             }
           ]
         },
@@ -127,7 +128,7 @@
               "website": "https://www.google.com",
               "email": "some@mail.com",
               "twitter": "https://x.com/some-twitter-account",
-              "picture": "user.jpg"
+              "picture": "rodrigo_spinola.jpg"
             },
             {
               "name": "Ph.D Student Two",
@@ -135,7 +136,7 @@
               "website": "https://www.google.com",
               "email": "some@mail.com",
               "twitter": "some-twitter-account",
-              "picture": "user.jpg"
+              "picture": "rodrigo_spinola.jpg"
             },
             {
               "name": "Ph.D Student Two",
@@ -143,7 +144,7 @@
               "website": "https://www.google.com",
               "email": "some@mail.com",
               "twitter": "some-twitter-account",
-              "picture": "user.jpg"
+              "picture": "rodrigo_spinola.jpg"
             },
             {
               "name": "Ph.D Student Two",
@@ -151,7 +152,7 @@
               "website": "https://www.google.com",
               "email": "some@mail.com",
               "twitter": "some-twitter-account",
-              "picture": "user.jpg"
+              "picture": "rodrigo_spinola.jpg"
             },
             {
               "name": "Ph.D Student Two",
@@ -159,7 +160,7 @@
               "website": "https://www.google.com",
               "email": "some@mail.com",
               "twitter": "some-twitter-account",
-              "picture": "user.jpg"
+              "picture": "rodrigo_spinola.jpg"
             }
           ]
         }
@@ -248,6 +249,31 @@
           "title": "Email",
           "icon": "mail",
           "link": "secenter@vcu.edu"
+        }
+      ]
+    },
+    "faq": {
+      "title": "F.A.Q.",
+      "questions": [
+        {
+          "question": "I am interested in your research topics! How can I work on my thesis with you?",
+          "answer" : "Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas."
+        },
+        {
+          "question": "I'm missing some exams, can I still start working on the thesis?",
+          "answer" : "Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas."
+        },
+        {
+          "question": "How can I keep in touch with relevant teachers and mentors?",
+          "answer" : "Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas."
+        },
+        {
+          "question": "What are the procedures to be carried out on Esse3 to obtain the title?",
+          "answer" : "Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas."
+        },
+        {
+          "question": "Should I print a copy of the thesis for the thesis advisor and mentors?",
+          "answer" : "Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas."
         }
       ]
     }
