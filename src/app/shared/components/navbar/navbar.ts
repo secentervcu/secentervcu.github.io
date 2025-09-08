@@ -1,9 +1,8 @@
-import {ApplicationRef, Component, ElementRef, Input, ViewChild} from '@angular/core';
+import {Component, ElementRef, HostListener, Input, ViewChild} from '@angular/core';
 import {TranslatePipe} from '@ngx-translate/core';
-import {NavigationEnd, Router, RouterLink} from '@angular/router';
+import {ActivatedRoute, RouterLink} from '@angular/router';
 import {NgClass, ViewportScroller} from '@angular/common';
 import {NavItem} from './nav-item.interface';
-import {filter, first} from 'rxjs';
 
 @Component({
   selector: 'app-navbar',
@@ -21,28 +20,24 @@ export class Navbar {
   @ViewChild('nav') nav!: ElementRef<HTMLElement>;
   protected isOpen = false;
 
-  constructor(
-    private router: Router,
-    private viewportScroller: ViewportScroller,
-    private appRef: ApplicationRef) {
-    this.router.events
-        .pipe(filter((e) => e instanceof NavigationEnd))
-        .subscribe(() => {
-          const fragment = this.router.parseUrl(this.router.url).fragment;
+  @HostListener('window:load', [])
+  onLoad() {
+    const fragment = this.route.snapshot.fragment;
+    if (fragment) {
+      this.scrollToSection(fragment)
+    }
+    console.log('abc');
+  }
 
-          if (fragment) {
-            setTimeout(() => {
-              this.appRef.isStable.pipe(first((stable) => stable)).subscribe(() => {
-                this.scrollToSection(fragment);
-              });
-            });
-          }
-        });
+  constructor(
+    private route: ActivatedRoute,
+    private viewportScroller: ViewportScroller
+  ) {
   }
 
   public scrollToSection(sectionId: string): void {
     this.viewportScroller.setOffset([0, this.getNavHeight()]);
-    this.viewportScroller.scrollToAnchor(sectionId);
+    this.viewportScroller.scrollToAnchor(sectionId, {behavior: 'smooth'});
   }
 
   private getNavHeight(): number {

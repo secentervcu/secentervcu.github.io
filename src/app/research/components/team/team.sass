@@ -1,13 +1,13 @@
 @use 'colors' as *
 
 .material-icons
-  color: $se-blue
+  color: $se-team-member-icon-color
 
 i:hover
   color: $se-light-blue
 
 .team
-  background-color: $se-white
+  background-color: $se-team-section-color
   .members
     padding-bottom: 30px
   .member-data
@@ -15,12 +15,13 @@ i:hover
     overflow: hidden
     width: fit-content
     border-radius: 5px
-    background-color: $se-dark
+    background-color: $se-team-member-card-color
     box-shadow: 0 0 30px rgba(15, 15, 15, 0.1)
     transition: 0.3s
     .member-info
       padding: 10px 15px 10px 15px
       h4
+        font-family: 'Roboto Bold', sans-serif
         font-weight: 700
         margin-bottom: 5px
         font-size: 20px
@@ -36,9 +37,9 @@ i:hover
         margin-top: 0
 
 h1, h2, span.name, p.alumni
-  color: $se-dark
+  color: $se-team-alumni-text-color
 h4, span
-  color: $se-white
+  color: $se-team-member-card-text-color
 
 .section-header
   h2
@@ -48,6 +49,11 @@ h4, span
     letter-spacing: 1px
     font-weight: 700
     margin: 0
+
+.alumni
+  .name
+    font-family: 'Roboto Bold', sans-serif
+    font-weight: bold
 
 @media screen and (min-width: 800px)
   .team .member-data:hover

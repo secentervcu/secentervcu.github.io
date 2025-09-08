@@ -1,8 +1,11 @@
 @use 'colors' as *
 
+h1, h3, i, p, a
+  color: $se-contact-card-text-color
+
 .app-section-contact
   padding: 60px 0
-  background-color: $se-white
+  background-color: $se-contact-section-color
 
   .container
     width: 100%
@@ -16,31 +19,23 @@
       h1
         text-transform: uppercase
         font-size: calc(1.375rem + 1.5vw)
-        color: #1d2331ff
-        //font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"
 
   .info-box
     border-radius: 4px
-    color: #1d2331ff
-    background: rgb(200, 200, 200)
+    background: $se-contact-card-color
     padding: 30px
 
     h3
       font-size: 20px
-      color: $se-dark
       font-weight: 700
       margin: 20px 0 10px 0
       padding-top: 1.5em
 
     i
       font-size: 38px
-      color: $se-dark
 
     p
       margin-bottom: 0
       padding: 0
       line-height: 24px
       font-size: 14px
-      a
-        color: $se-blue
-        text-decoration: none

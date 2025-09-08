@@ -2,19 +2,26 @@
 @use 'bootstrap/scss/bootstrap' as *
 
 @font-face
-  font-family: 'Axis'
-  src: url('../public/assets/fonts/axis.otf') format('opentype')
+  font-family: 'Roboto Light'
+  src: url('../public/assets/fonts/roboto-light.ttf') format('truetype')
   font-weight: normal
   font-style: normal
 
 @font-face
-  font-family: 'Banda Regular'
-  src: url('../public/assets/fonts/banda-regular.otf') format('opentype')
+  font-family: 'Roboto Bold'
+  src: url('../public/assets/fonts/roboto-bold.ttf') format('truetype')
+  font-weight: normal
+  font-style: normal
+
+@font-face
+  font-family: 'Merriweather bold'
+  src: url('../public/assets/fonts/merriweather-bold.ttf') format('truetype')
   font-weight: normal
   font-style: normal
 
 h1, h2, h3
-  font-family: 'Axis', sans-serif
+  font-family: 'Merriweather bold', sans-serif
+  font-weight: bold
   text-transform: uppercase
 
 a
@@ -23,7 +30,9 @@ a
 body
   background-color: $se-white
   margin: 0
-  font-family: 'Banda Regular', sans-serif
+  font-family: 'Roboto Light', sans-serif
+  font-weight: 500
+  color: $se-black
 
 :root
   scroll-behavior: smooth

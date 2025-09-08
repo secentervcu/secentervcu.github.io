@@ -1,5 +1,12 @@
 @use 'colors' as *
 
+.header
+  background: $se-nav-color
+  display: block
+  transition: all 0.5s
+  z-index: 997
+  padding: 15px 0
+
 .material-icons
   font-size: 20px
   color: $se-white
@@ -27,11 +34,11 @@ ul
   align-items: center
   justify-content: space-between
   white-space: nowrap
-  font-family: 'Axis', sans-serif
+  font-family: 'Roboto Bold', sans-serif
   font-weight: 700
   text-transform: uppercase
   transition: 0.3s
-  color: $se-white
+  color: $se-nav-text-color
   &:hover
     color: $se-light-blue
 
@@ -67,7 +74,7 @@ ul
     right: 15px
     padding: 10px 0
     border-radius: 5px
-    background-color: $se-dark
+    background-color: $se-nav-color
     overflow-y: auto
     transition: 0.3s
 

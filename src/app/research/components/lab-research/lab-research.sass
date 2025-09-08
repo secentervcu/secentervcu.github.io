@@ -1,19 +1,18 @@
 @use 'colors' as *
 
-
 .section-header
   padding-bottom: 40px
 
 .research
-  background-color: $se-gray
+  background-color: $se-research-section-color
   .research-box:hover
-    background: rgba(250, 250, 250, 0.8)
+    background: $se-research-card-hover-color
     transition: 0.5s
     transform: scale(1.1)
 
   .research-box
     border-radius: 4px
-    background-color: rgb(200, 200, 200)
+    background-color: $se-research-card-color
     padding: 24px 20px
     box-shadow: 0 0 30px rgba(200, 200, 200, 0.3)
     transition: 0.3s
@@ -21,7 +20,7 @@
 
     h3
       font-size: 18px
-      color: $se-dark
+      color: $se-research-card-text-color
       font-weight: 700
       margin: 0
       padding-top: 0
