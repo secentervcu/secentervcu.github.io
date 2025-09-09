@@ -37,6 +37,9 @@
               "includePaths": [
                 "public/assets"
               ]
+            },
+            "outputPath": {
+              "base": "dist"
             }
           },
           "configurations": {
@@ -97,6 +100,9 @@
               "node_modules/aos/dist/aos.js"
             ]
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
