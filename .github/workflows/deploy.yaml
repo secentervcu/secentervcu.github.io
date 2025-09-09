@@ -1,4 +1,4 @@
-name: Deploy Angular App to GitHub Pages
+name: Build and Deploy Script
 
 on:
   push:
@@ -11,21 +11,22 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v2
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 22
 
-      - name: Install dependencies
+      - name: Install Dependencies
         run: npm install
 
-      - name: Build Angular app
-        run: npm run build -- --configuration production --base-href "/selabvcu/"
+      - name: Build Angular App
+        run: npm run build
 
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          branch: gh-pages
-          folder: dist/app
+      - name: Deploy to gh pages
+        run: |
+          npx angular-cli-ghpages --dir=dist/your-angular-app
+        env:
+          CI: true
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
