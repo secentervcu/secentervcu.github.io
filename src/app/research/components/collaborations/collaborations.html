@@ -10,7 +10,7 @@
       init="false">
       @for (logo of logos; track $index) {
         <swiper-slide #swiperSlide [attr.aria-label]="($index + 1) + ' / ' + logos.length">
-          <img [src]="'../assets/images/collaborations/' + logo + '.png'" class="img-fluid" [alt]="logo">
+          <img [src]="'assets/images/collaborations/' + logo + '.png'" class="img-fluid" [alt]="logo">
         </swiper-slide>
       }
     </swiper-container>
