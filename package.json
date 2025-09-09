@@ -1,13 +1,12 @@
 {
-  "name": "selab-vcu.github.io",
+  "name": "selabvcu",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "serve:ssr:SELabVcu.github.io": "node dist/SELabVcu.github.io/server/server.mjs"
+    "test": "ng test"
   },
   "prettier": {
     "printWidth": 100,

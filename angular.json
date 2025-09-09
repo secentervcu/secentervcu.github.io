@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "SELabVcu.github.io": {
+    "selabvcu": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -67,10 +67,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "SELabVcu.github.io:build:production"
+              "buildTarget": "selabvcu:build:production"
             },
             "development": {
-              "buildTarget": "SELabVcu.github.io:build:development"
+              "buildTarget": "selabvcu:build:development"
             }
           },
           "defaultConfiguration": "development"

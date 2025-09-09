@@ -12,7 +12,7 @@ import AOS from 'aos';
 })
 export class App implements OnInit {
 
-  protected readonly title = signal('SELabVcu.github.io');
+  protected readonly title = signal('selabvcu');
 
   ngOnInit(): void {
     AOS.init({
