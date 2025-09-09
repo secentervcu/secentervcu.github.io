@@ -234,21 +234,18 @@
       "title": "Contact",
       "contacts": [
         {
-          "title": "Address",
-          "icon": "location_on",
+          "title": "Instagram",
+          "package": "fab",
+          "icon": "instagram",
           "link": "https://egr.vcu.edu/resources/ops-management/buildings/",
-          "linkText": "VCU ERB",
-          "info" : "Room 2337"
+          "linkText": "@selab"
         },
         {
-          "title": "telephone",
-          "icon": "call",
-          "info" : "(804) XXX-XXXX"
-        },
-        {
-          "title": "Email",
-          "icon": "mail",
-          "link": "secenter@vcu.edu"
+          "title": "Twitter",
+          "package": "fab",
+          "icon": "x-twitter",
+          "link": "https://egr.vcu.edu/resources/ops-management/buildings/",
+          "linkText": "@selab"
         }
       ]
     },

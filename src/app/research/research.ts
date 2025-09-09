@@ -5,11 +5,11 @@ import {About} from './components/about/about';
 import {Team} from './components/team/team';
 import {LabResearch} from './components/lab-research/lab-research';
 import {Collaborations} from './components/collaborations/collaborations';
-import {Footer} from '../shared/components/footer/footer';
 import {NavItem} from '../shared/components/navbar/nav-item.interface';
 import {Contact} from '../shared/components/contact/contact';
 import {GoUp} from '../shared/components/go-up/go-up';
 import {Faq} from './components/faq/faq';
+import {NewFooter} from '../shared/components/new-footer/new-footer';
 
 @Component({
   selector: 'app-research',
@@ -20,10 +20,10 @@ import {Faq} from './components/faq/faq';
     Team,
     LabResearch,
     Collaborations,
-    Footer,
     Contact,
     GoUp,
-    Faq
+    Faq,
+    NewFooter
   ],
   templateUrl: './research.html',
   styleUrl: './research.sass'
