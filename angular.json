@@ -37,7 +37,8 @@
               "includePaths": [
                 "public/assets"
               ]
-            }
+            },
+            "baseHref": "/selabvcu/"
           },
           "configurations": {
             "production": {
