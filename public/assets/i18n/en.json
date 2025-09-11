@@ -11,11 +11,9 @@
     "about": {
       "title": "About",
       "text": [
-        "Welcome to the homepage of the Software Engineering (Se) Research Lab!",
-        "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.",
-        "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.",
-        "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.",
-        "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos."
+        "The <strong>Software Engineering (SE) Center</strong> at Virginia Commonwealth University is dedicated to advancing the science and practice of software engineering through cutting-edge research, education, and collaboration. Housed in the <strong>Department of Computer Science</strong> within the <strong>College of Engineering</strong>, the Center brings together faculty, students, and partners to address the challenges of building, maintaining, and evolving complex software systems",
+        "Research at the SE Center focuses on both foundational and applied aspects of software engineering, with an emphasis on real-world impact. Ongoing projects explore software evolution and long-term system sustainability, emotion detection in software development, technical debt and its management, fairness in software systems, empirical approaches to studying software practices, and the engineering of artificial intelligence applied to health.",
+        "The Center is co-directed by <strong>Professors Kostadin Damevski</strong> and <strong>Rodrigo Spinola</strong>. Working with an interdisciplinary team of faculty and students, they foster innovation at the intersection of people, processes, and technology. Through partnerships with academia, industry, and government, the SE Center seeks to advance knowledge, train the next generation of software engineers, and deliver solutions that make software systems more reliable, fair, and impactful for society."
       ]
     },
     "team": {
@@ -169,56 +167,77 @@
         "title": "Alumni",
         "list": [
           {
-            "name": "First Alumni",
-            "title": "Ph.D. in Computer Science",
-            "advisor": "Some Advisor"
+            "name": "Felipe Fronchetti",
+            "title": "Ph.D. in Computer Science, Assistant Professor at Louisiana State University",
+            "advisor": "Rodrigo Spinola"
+          },
+          {
+            "name": "Miles Popiela",
+            "title": "MSc in Computer Science, Amazon Area Manager",
+            "advisor": "Rodrigo Spinola"
+          },
+          {
+            "name": "Agnieszka Ciborowska",
+            "title": "PhD in Computer Science, Hewlett Packard",
+            "advisor": "Rodrigo Spinola"
+          },
+          {
+            "name": "Manziba Nishi",
+            "title": "PhD in Computer Science, Instructor at VCU",
+            "advisor": "Rodrigo Spinola"
+          },
+          {
+            "name": "Douglas Lusa Krug",
+            "title": "PhD in Computer Science, Professor at Instituto Federal Parana",
+            "advisor": "Rodrigo Spinola"
+          },
+          {
+            "name": "Mia Mohammad Imran",
+            "title": "PhD in Computer Science, Assistant Professor at Missouri S&T",
+            "advisor": "Rodrigo Spinola"
+          },
+          {
+            "name": "John Coogle",
+            "title": "MS in Computer Science, Mailing Services, Inc.",
+            "advisor": "Rodrigo Spinola"
+          },
+          {
+            "name": "Chase Greco",
+            "title": "MS in Computer Science, CarMax",
+            "advisor": "Rodrigo Spinola"
           }
         ]
       }
     },
     "labResearch": {
       "title": "Research",
-      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.",
+      "description": "The SE Center is organized into distinct research areas, each focusing on specific domains of interest. Its primary areas of investigation are:",
       "researchAreas": [
-        "Research Area 1",
-        "Research Area 2",
-        "Research Area 3",
-        "Research Area 4",
-        "Research Area 5",
-        "Research Area 6",
-        "Research Area 7",
-        "Research Area 8",
-        "Research Area 9",
-        "Research Area 10"
+        "AI Applied to Health",
+        "AI4SE and SE4AI",
+        "Empirical Software Engineering",
+        "Human Aspects in Software Engineering",
+        "Software Evolution",
+        "Software Fairness",
+        "Software Security",
+        "Technical Debt"
       ]
     },
     "collaborations": {
       "title": "Collaborations",
       "logos": [
-        "vcu",
-        "vcu",
-        "vcu",
-        "vcu",
-        "vcu",
-        "vcu",
-        "vcu",
-        "vcu",
-        "vcu",
-        "vcu",
-        "vcu",
-        "vcu",
-        "vcu",
-        "vcu",
-        "vcu",
-        "vcu",
-        "vcu",
-        "vcu",
-        "vcu",
-        "vcu",
-        "vcu",
-        "vcu",
-        "vcu",
-        "vcu",
+        "cuny",
+        "drexel",
+        "polytechnique-montreal",
+        "smu",
+        "university-of-alabama",
+        "university-of-calgary",
+        "umbc",
+        "UMBC-honors",
+        "unisa",
+        "university-of-virginia",
+        "vcu-health",
+        "vsu",
         "vcu"
       ]
     },

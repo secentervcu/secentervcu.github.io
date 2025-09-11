@@ -4,11 +4,9 @@
       <div class="col-lg-8 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
         <div class="content">
           <h1>{{ 'sections.about.title' | translate }}</h1>
-          <p>
             @for (paragraph of ('sections.about.text' | translate); track $index) {
-              {{ paragraph }} <br><br>
+              <p [innerHTML]="paragraph | safeHtml"></p>
             }
-          </p>
         </div>
       </div>
     </div>
