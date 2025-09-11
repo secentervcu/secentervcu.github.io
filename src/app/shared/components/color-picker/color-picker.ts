@@ -1,6 +1,7 @@
-import {Component, EventEmitter, Input, Output} from '@angular/core';
+import {Component, ElementRef, EventEmitter, Input, Output, ViewChild} from '@angular/core';
 import {MatLabel, MatFormField} from '@angular/material/form-field';
 import {MatOption, MatSelect} from '@angular/material/select';
+import {FormsModule} from '@angular/forms';
 
 @Component({
   selector: 'app-color-picker',
@@ -8,13 +9,13 @@ import {MatOption, MatSelect} from '@angular/material/select';
     MatFormField,
     MatLabel,
     MatSelect,
-    MatOption
+    MatOption,
+    FormsModule
   ],
   templateUrl: './color-picker.html',
   styleUrl: './color-picker.sass'
 })
 export class ColorPicker {
-
   primary_palette_print_colors = [
     {
       'name': 'White',
@@ -87,16 +88,31 @@ export class ColorPicker {
   ];
 
   @Input() textDescription: string = '';
-  @Output() colorSelected = new EventEmitter<string>();
-  @Input() selectedColor = this.primary_palette_print_colors[0].value;
+  @Output() colorSelected = new EventEmitter<Record<string, string>>();
+  @Input() selectedColor = this.primary_palette_print_colors[0];
+  @ViewChild('customColorPicker') colorPicker!: ElementRef<HTMLInputElement>;
 
-  // selectColor(color: string) {
-  //   this.colorSelected.emit(color);
-  // }
+  showCustomPicker = false;
+  customColorValue = {name: 'custom', value: '#FFFFFF'};
 
-  selectColor(event: string) {
-    const color = event;
-    console.log('Cor selecionada:', color);
-    this.colorSelected.emit(color);
+
+  onSelectColor(color: any) {
+    this.selectedColor = color;
+    this.showCustomPicker = color.name === 'custom';
+    this.colorSelected.emit(this.selectedColor);
+  }
+
+  openColorPicker() {
+    setTimeout(() => this.colorPicker.nativeElement.click());
+  }
+
+  onCustomColorChange(event: any) {
+    this.customColorValue.value = event.target.value;
+    this.selectedColor = this.customColorValue;
+    this.colorSelected.emit(this.customColorValue);
+  }
+
+  compareSelectedOption(color1: any, color2: any) {
+    return color1 && color2 ? color1.name === color2.name : color1 === color2;
   }
 }

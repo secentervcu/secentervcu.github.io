@@ -1,4 +1,4 @@
-<section id="research" class="research color-section" [style.background-color]="selectedBackgroundColor">
+<section id="research" class="research color-section" [style.background-color]="selectedBackgroundColor.value">
   <div>
     <app-color-picker [selectedColor]="selectedBackgroundColor" textDescription="Background color"
                       (colorSelected)="changeBackgroundColor($event)"></app-color-picker>
@@ -9,13 +9,13 @@
   </div>
   <div class="container" data-aos="fade-up">
     <header class="section-header">
-      <h1 [style.color]="selectedTextColor">{{ 'sections.labResearch.title' | translate }}</h1>
+      <h1 [style.color]="selectedTextColor.value">{{ 'sections.labResearch.title' | translate }}</h1>
     </header>
     <div class="row gx-0 justify-content-center">
       <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up"
            data-aos-delay="200">
         <div class="content justify-content-center">
-          <p [style.color]="selectedTextColor">{{ 'sections.labResearch.description' | translate }}</p>
+          <p [style.color]="selectedTextColor.value">{{ 'sections.labResearch.description' | translate }}</p>
         </div>
       </div>
     </div>
@@ -24,10 +24,10 @@
         <div class="row align-self-center g-4">
           @for (researchArea of ('sections.labResearch.researchAreas' | translate); track $index) {
             <div class="col-lg-3 col-md-4 col-sm-6" data-aos="zoom-out" [attr.data-aos-delay]="200 + ($index * 100)">
-              <div class="research-box d-flex align-items-center" [style.background-color]="selectedCardColor"
+              <div class="research-box d-flex align-items-center" [style.background-color]="selectedCardColor.value"
                    (mouseenter)="onHover($event, selectedCardHoverColor)"
                    (mouseleave)="onLeave($event, selectedCardColor)">
-                <h3 [style.color]="selectedCardTextColor">{{ researchArea }}</h3>
+                <h3 [style.color]="selectedCardTextColor.value">{{ researchArea }}</h3>
               </div>
             </div>
           }

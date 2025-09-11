@@ -1,25 +1,40 @@
 <mat-form-field appearance="outline">
-  <mat-label>{{textDescription}}</mat-label>
-  <mat-select [(value)]="selectedColor" (selectionChange)="selectColor($event.value)">
+  <mat-label>{{ textDescription }}</mat-label>
+  <mat-select [compareWith]="compareSelectedOption" [(value)]="selectedColor" (selectionChange)="onSelectColor($event.value)">
     @for (color of primary_palette_print_colors; track $index) {
-      <mat-option [value]="color.value">
+      <mat-option [value]="color">
         <span class="color-circle" [style.background-color]="color.value"></span>
         {{ color.name }}
       </mat-option>
     }
     @for (color of primary_palette_digital_colors; track $index) {
-      <mat-option [value]="color.value">
+      <mat-option [value]="color">
         <span class="color-circle" [style.background-color]="color.value"></span>
         {{ color.name }}
       </mat-option>
     }
     @for (color of secondary_palette_digital_colors; track $index) {
-      <mat-option [value]="color.value">
+      <mat-option [value]="color">
         <span class="color-circle" [style.background-color]="color.value"></span>
         {{ color.name }}
       </mat-option>
     }
+
+    <mat-option [value]="customColorValue"
+                (click)="openColorPicker()">
+        Custom color
+    </mat-option>
   </mat-select>
 </mat-form-field>
+
+@if (showCustomPicker) {
+  <input #customColorPicker type="color"
+         [value]="customColorValue"
+         (input)="onCustomColorChange($event)"
+         class="custom-color-input">
+}
+
+
+
 
 

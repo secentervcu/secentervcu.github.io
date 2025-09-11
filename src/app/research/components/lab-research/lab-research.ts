@@ -12,39 +12,54 @@ import {ColorPicker} from '../../../shared/components/color-picker/color-picker'
   styleUrl: './lab-research.sass'
 })
 export class LabResearch {
-  selectedBackgroundColor = 'rgba(255, 179, 0, 0.6)';
-  selectedTextColor = '#000000';
-  selectedCardColor = '#006894';
-  selectedCardTextColor = '#000000';
-  selectedCardHoverColor = '#DEDEDE';
+  selectedBackgroundColor = {
+    'name': 'Pantone 130C and 109U 60%',
+    'value': 'rgba(255, 179, 0, 0.6)'
+  };
+  selectedTextColor = {
+    'name': 'Black',
+    'value': '#000000'
+  };
+  selectedCardColor = {
+    'name': 'Blue',
+    'value': '#006894'
+  };
+  selectedCardTextColor = {
+    'name': 'Black',
+    'value': '#000000'
+  };
+  selectedCardHoverColor = {
+    'name': 'Grey',
+    'value': '#DEDEDE'
+  };
 
-  changeBackgroundColor(color: string) {
+  changeBackgroundColor(color: any) {
     this.selectedBackgroundColor = color;
   }
 
-  changeTextColor(color: string) {
+  changeTextColor(color: any) {
     this.selectedTextColor = color;
   }
 
-  changeCardTextColor(color: string) {
+  changeCardTextColor(color: any) {
     this.selectedCardTextColor = color;
   }
 
-  changeCardColor(color: string) {
+  changeCardColor(color: any) {
     this.selectedCardColor = color;
   }
 
-  changeCardHoverColor(color: string) {
+  changeCardHoverColor(color: any) {
     this.selectedCardHoverColor = color;
   }
 
-  onHover(event: MouseEvent, hoverColor: string) {
+  onHover(event: MouseEvent, hoverColor: any) {
     const target = event.target as HTMLElement;
-    target.style.backgroundColor = hoverColor;
+    target.style.backgroundColor = hoverColor.value;
   }
 
-  onLeave(event: MouseEvent, normalColor: string) {
+  onLeave(event: MouseEvent, normalColor: any) {
     const target = event.target as HTMLElement;
-    target.style.backgroundColor = normalColor;
+    target.style.backgroundColor = normalColor.value;
   }
 }
