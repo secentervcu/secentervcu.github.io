@@ -28,6 +28,7 @@
             ],
             "externalDependencies": ["assets/images/*","assets/fonts/*"],
             "styles": [
+              "src/custom-theme.scss",
               "node_modules/aos/dist/aos.css",
               "src/styles.sass"
             ],
