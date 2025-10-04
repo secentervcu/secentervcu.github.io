@@ -19,13 +19,29 @@
                 <h4>{{ member.name | translate }}</h4>
                 <span class="member-title">{{ member.title | translate }}</span>
                 <p class="member-contact">
-                  <a [href]="member.website"><i class="material-icons" data-toggle="tooltip" data-placement="bottom"
-                                                title="Personal page">language</i></a>
-                  <a [href]="'mailto:' + member.email"><i class="material-icons" data-toggle="tooltip"
-                                                          data-placement="bottom" [title]="member.email">email</i></a>
-                  <a [href]="'https://x.com/' + member.twitter"><i class="material-icons" data-toggle="tooltip"
-                                                                   data-placement="bottom"
-                                                                   [title]="'@' + member.twitter">clear</i></a>
+                  <a [href]="'mailto:' + member.email">
+                    <fa-icon class="mail-icon" [icon]="faEnvelope" data-toggle="tooltip"
+                             data-placement="bottom" [title]="member.email"/>
+                  </a>
+                  @if (member.hasOwnProperty("website")) {
+                    <a [href]="member.website">
+                      <fa-icon [icon]="faGlobe" data-toggle="tooltip" data-placement="bottom"
+                               title="Personal page"/>
+                    </a>
+                  }
+                  @if (member.hasOwnProperty("twitter")) {
+                    <a [href]="'https://x.com/' + member.twitter">
+                      <fa-icon [icon]="faXTwitter" data-toggle="tooltip"
+                               data-placement="bottom"
+                               [title]="'@' + member.twitter"/>
+                    </a>
+                  }
+                  @if (member.hasOwnProperty("linkedin")) {
+                    <a [href]="member.linkedin">
+                      <fa-icon [icon]="faLinkedin" data-toggle="tooltip" data-placement="bottom"
+                               [title]="member.linkedin"/>
+                    </a>
+                  }
                 </p>
               </div>
             </div>
