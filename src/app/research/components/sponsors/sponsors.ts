@@ -1,11 +1,7 @@
 import {
   AfterViewInit,
   Component,
-  CUSTOM_ELEMENTS_SCHEMA,
-  ElementRef,
-  QueryList,
-  ViewChild,
-  ViewChildren
+  CUSTOM_ELEMENTS_SCHEMA, ElementRef, QueryList, ViewChild, ViewChildren
 } from '@angular/core';
 import {TranslatePipe} from '@ngx-translate/core';
 

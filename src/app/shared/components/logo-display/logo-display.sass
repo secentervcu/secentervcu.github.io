@@ -1,27 +1,110 @@
 @use 'colors' as *
 
-.intro
+section
   min-width: 100vw
   align-content: center
-  background-image: url("assets/images/background.jpg")
-  background-size: cover !important
-  background-position: center center
-  background-repeat: no-repeat
+  padding: 0
   overflow: hidden
+  max-height: 100vh
 
 .container
-  margin-top: 20px
-  margin-bottom: 20px
+  padding: 0
+  margin: 14px 0
 
-.img-fluid
-  max-width: 50%
-  max-height: 100vh
-  vertical-align: middle
+@media(max-width: 990px)
+  .container
+    margin: 5px 0
+
+@media(max-width: 350px)
+  .container
+    margin: 10px 0
+
+.mySwiper
+  width: 100vw
+  //height: auto
+
+.mySwiper img
+  width: 100%
+  object-fit: cover
   height: auto
 
-.section-header
-  display: block
+swiper-slide
+  display: flex
+  justify-content: center
+  align-items: flex-start
+  overflow: hidden
+  position: relative
 
-@media(min-width: 1334px)
-  .img-fluid
-    padding: 80px
+  .vcu-building
+    transform: translate(0, -15%)
+
+  .overlay-logo
+    position: absolute
+    top: 40%
+    left: 50%
+    transform: translate(-50%, -50%)
+    z-index: 10
+    max-width: 35%
+    max-height: 100vh
+    vertical-align: middle
+    height: auto
+    pointer-events: none
+
+  .overlay-group-photo
+    position: absolute
+    top: 55%
+    left: 50%
+    transform: translate(-50%, -50%)
+    z-index: 10
+    max-width: 35%
+    max-height: 100vh
+    vertical-align: middle
+    height: auto
+    pointer-events: none
+
+swiper-container::part(bullet)
+  background: $se-logo-bullet-color
+  border: 1px solid $se-logo-bullet-color
+  width: 12px
+  height: 12px
+  opacity: 1
+
+swiper-container::part(bullet-active)
+  background: $se-logo-bullet-active-color
+  border: 1px solid $se-logo-bullet-active-color
+  width: 12px
+  height: 12px
+  opacity: 1
+
+@media(min-width: 1500px)
+  swiper-slide
+    .overlay-logo
+      top: 30%
+      max-width: 30%
+    .overlay-group-photo
+      top: 30%
+      max-width: 30%
+
+@media(min-width: 2500px)
+  swiper-slide
+    .overlay-logo
+      top: 40%
+      max-width: 25%
+
+@media(max-width: 600px)
+  swiper-slide
+    .overlay-logo
+      top: 45%
+      max-width: 35%
+    .overlay-group-photo
+      top: 28%
+      max-width: 25%
+
+@media(min-width: 2800px)
+  swiper-slide
+    .overlay-logo
+      top: 28%
+      max-width: 25%
+    .overlay-group-photo
+      top: 40%
+      max-width: 18%
