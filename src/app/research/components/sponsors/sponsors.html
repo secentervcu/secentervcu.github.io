@@ -1,0 +1,19 @@
+<section id="sponsors" class="sponsors">
+  <div class="container" data-aos="fade-up">
+    <header class="section-header">
+      <h1>{{'sections.sponsors.title' | translate}}</h1>
+    </header>
+
+    @let logos = ('sections.sponsors.logos' | translate);
+
+    <swiper-container #swiper
+                      init="false">
+      @for (logo of logos; track $index) {
+        <swiper-slide #swiperSlide [attr.aria-label]="($index + 1) + ' / ' + logos.length">
+          <img [src]="'assets/images/sponsors/' + logo + '.png'" class="img-fluid" [alt]="logo">
+        </swiper-slide>
+      }
+    </swiper-container>
+
+  </div>
+</section>

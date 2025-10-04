@@ -5,6 +5,7 @@
     "research": "Research",
     "education": "Education",
     "faq": "FAQ",
+    "sponsors": "Sponsors",
     "contact": "Contact"
   },
   "sections": {
@@ -253,6 +254,15 @@
           "question": "Should I print a copy of the thesis for the thesis advisor and mentors?",
           "answer" : "Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas."
         }
+      ]
+    },
+    "sponsors": {
+      "title": "Sponsors",
+      "logos": [
+        "commonwealth_of_virginia_commonwealth_cyber_initiative",
+        "dhs",
+        "korea_creative_content_agency",
+        "nsf"
       ]
     }
   }

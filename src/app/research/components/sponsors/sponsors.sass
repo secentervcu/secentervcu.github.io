@@ -1,0 +1,50 @@
+@use 'colors' as *
+
+section
+  padding-top: 0
+
+h1
+  padding-top: 1.5em
+
+.section-header
+  padding-bottom: 40px
+
+.sponsors
+  background-color: $se-sponsors-section-color
+
+swiper-container::part(pagination)
+  position: relative
+  margin-top: 2em
+
+swiper-container::part(bullet)
+  background: $se-sponsors-bullet-color
+  border: 1px solid $se-sponsors-bullet-color
+  width: 12px
+  height: 12px
+  opacity: 1
+
+swiper-container::part(bullet-active)
+  background: $se-sponsors-bullet-active-color
+  border: 1px solid $se-sponsors-bullet-active-color
+  width: 12px
+  height: 12px
+  opacity: 1
+
+swiper-slide
+  border-radius: 4px
+  transition: 0.3s
+  height: unset
+  display: flex
+
+  img
+    object-fit: contain
+
+@media (min-width: 1400px)
+  swiper-container
+    padding: 0 200px
+  swiper-slide img
+    max-width: 200px
+
+@media (min-width: 1300px)
+  swiper-container
+    padding: 0 50px

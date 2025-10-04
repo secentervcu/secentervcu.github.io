@@ -8,8 +8,8 @@ import {Collaborations} from './components/collaborations/collaborations';
 import {NavItem} from '../shared/components/navbar/nav-item.interface';
 import {Contact} from '../shared/components/contact/contact';
 import {GoUp} from '../shared/components/go-up/go-up';
-import {Faq} from './components/faq/faq';
 import {NewFooter} from '../shared/components/new-footer/new-footer';
+import {Sponsors} from './components/sponsors/sponsors';
 
 @Component({
   selector: 'app-research',
@@ -22,8 +22,8 @@ import {NewFooter} from '../shared/components/new-footer/new-footer';
     Collaborations,
     Contact,
     GoUp,
-    Faq,
-    NewFooter
+    NewFooter,
+    Sponsors
   ],
   templateUrl: './research.html',
   styleUrl: './research.sass'
@@ -33,7 +33,7 @@ export class Research {
     {key: 'navbar.about', fragment: 'about'},
     {key: 'navbar.team', fragment: 'team'},
     {key: 'navbar.research', fragment: 'research'},
-    {key: 'navbar.faq', fragment: 'faq'},
+    {key: 'navbar.sponsors', fragment: 'sponsors'},
     {key: 'navbar.contact', fragment: 'contact'},
   ];
 }
