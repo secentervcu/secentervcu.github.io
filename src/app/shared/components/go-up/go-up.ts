@@ -15,7 +15,6 @@ export class GoUp {
   @HostListener('window:scroll', [])
   onWindowScroll() {
     this.scrollY = window.scrollY;
-    console.log(scrollY);
   }
 
   scrollToTop() {

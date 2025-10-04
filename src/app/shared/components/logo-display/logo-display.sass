@@ -8,6 +8,8 @@ section
   max-height: 100vh
 
 .container
+  display: flex
+  position: relative
   padding: 0
   margin: 14px 0
 
@@ -35,24 +37,20 @@ swiper-slide
   overflow: hidden
   position: relative
 
-  .vcu-building
-    transform: translate(0, -15%)
-
   .overlay-logo
     position: absolute
-    top: 40%
     left: 50%
     transform: translate(-50%, -50%)
+    //top: var(--overlay-top, 50%)  // default: center in parent
     z-index: 10
     max-width: 35%
     max-height: 100vh
-    vertical-align: middle
     height: auto
     pointer-events: none
 
   .overlay-group-photo
     position: absolute
-    top: 55%
+    //top: 50vh
     left: 50%
     transform: translate(-50%, -50%)
     z-index: 10
@@ -79,32 +77,29 @@ swiper-container::part(bullet-active)
 @media(min-width: 1500px)
   swiper-slide
     .overlay-logo
-      top: 30%
       max-width: 30%
     .overlay-group-photo
-      top: 30%
       max-width: 30%
 
 @media(min-width: 2500px)
   swiper-slide
     .overlay-logo
-      top: 40%
       max-width: 25%
+    .overlay-group-photo
+      max-width: 30%
 
 @media(max-width: 600px)
   swiper-slide
     .overlay-logo
-      top: 45%
       max-width: 35%
     .overlay-group-photo
-      top: 28%
       max-width: 25%
 
 @media(min-width: 2800px)
   swiper-slide
+    .vcu-building
+      transform: translate(0, -25%)
     .overlay-logo
-      top: 28%
       max-width: 25%
     .overlay-group-photo
-      top: 40%
       max-width: 18%
