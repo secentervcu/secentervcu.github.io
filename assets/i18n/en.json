@@ -23,142 +23,105 @@
           "title": "Faculty Members",
           "members": [
             {
-              "name": "Faculty One",
+              "name": "Kostadin Damevski",
               "title": "Full Professor",
-              "website": "https://www.google.com",
-              "email": "some@mail.com",
-              "twitter": "https://x.com/some-twitter-account",
-              "picture": "rodrigo_spinola.jpg"
+              "website": "https://damevski.github.io/",
+              "email": "kdamevski@vcu.edu",
+              "picture": "kostadin_damevski.jpg"
             },
             {
-              "name": "Faculty Two",
+              "name": "Rodrigo Spinola",
               "title": "Full Professor",
-              "website": "https://www.google.com",
-              "email": "some@mail.com",
-              "twitter": "some-twitter-account",
-              "picture": "rodrigo_spinola.jpg"
-            },
-            {
-              "name": "Faculty Two",
-              "title": "Full Professor",
-              "website": "https://www.google.com",
-              "email": "some@mail.com",
-              "twitter": "some-twitter-account",
-              "picture": "rodrigo_spinola.jpg"
-            },
-            {
-              "name": "Faculty Two",
-              "title": "Full Professor",
-              "website": "https://www.google.com",
-              "email": "some@mail.com",
-              "twitter": "some-twitter-account",
-              "picture": "rodrigo_spinola.jpg"
-            },
-            {
-              "name": "Faculty Two",
-              "title": "Full Professor",
-              "website": "https://www.google.com",
-              "email": "some@mail.com",
-              "twitter": "some-twitter-account",
-              "picture": "rodrigo_spinola.jpg"
-            },
-            {
-              "name": "Faculty Two",
-              "title": "Full Professor",
-              "website": "https://www.google.com",
-              "email": "some@mail.com",
-              "twitter": "some-twitter-account",
+              "website": "https://www.rodrigospinola.com",
+              "email": "spinolaro@vcu.edu",
               "picture": "rodrigo_spinola.jpg"
             }
           ]
         },
         {
-          "title": "Research associates",
+          "title": "PhD Students",
           "members": [
             {
-              "name": "Research associate One",
-              "title": "Postdoctoral Researcher",
-              "website": "https://www.google.com",
-              "email": "some@mail.com",
-              "twitter": "https://x.com/some-twitter-account",
-              "picture": "rodrigo_spinola.jpg"
+              "name": "Bruno Matias",
+              "title": "PhD Student",
+              "linkedin": "https://www.linkedin.com/in/brunoclaudino/",
+              "email": "claudinomab@vcu.edu",
+              "picture": "bruno_matias.jpg"
             },
             {
-              "name": "Research associate Two",
-              "title": "Postdoctoral Researcher",
-              "website": "https://www.google.com",
-              "email": "some@mail.com",
-              "twitter": "some-twitter-account",
-              "picture": "rodrigo_spinola.jpg"
+              "name": "David Ferrufino",
+              "title": "PhD Student",
+              "linkedin": "https://www.linkedin.com/in/david-ferrufino-29354a130/",
+              "email": "ferrufinoda2@vcu.edu",
+              "picture": "david_ferrufino.jpg"
             },
             {
-              "name": "Research associate Two",
-              "title": "Postdoctoral Researcher",
-              "website": "https://www.google.com",
-              "email": "some@mail.com",
-              "twitter": "some-twitter-account",
-              "picture": "rodrigo_spinola.jpg"
+              "name": "Juan Valentin Cano",
+              "title": "PhD Student",
+              "linkedin": "https://www.linkedin.com/in/juan-valentin-guerrero-cano/",
+              "email": "guerrerocajv@vcu.edu",
+              "picture": "valentin_guerrero.jpg"
             },
             {
-              "name": "Research associate Two",
-              "title": "Research Fellow",
-              "website": "https://www.google.com",
-              "email": "some@mail.com",
-              "twitter": "some-twitter-account",
-              "picture": "rodrigo_spinola.jpg"
+              "name": "Rahat Rahman",
+              "title": "PhD Student",
+              "linkedin": "https://www.linkedin.com/in/rahat-rizvi-rahman/",
+              "email": "rahmanr12@vcu.edu",
+              "picture": "rahat_rahman.jpg"
             },
             {
-              "name": "Research associate Two",
-              "title": "Research Fellow",
-              "website": "https://www.google.com",
-              "email": "some@mail.com",
-              "twitter": "some-twitter-account",
-              "picture": "rodrigo_spinola.jpg"
+              "name": "Rodrigo Sotolani",
+              "title": "PhD Student",
+              "linkedin": "https://www.linkedin.com/in/rsotolani/",
+              "email": "silvasotolr@vcu.edu",
+              "picture": "rodrigo_sotolani.jpg"
+            },
+            {
+              "name": "Victória Gomes",
+              "title": "PhD Student",
+              "linkedin": "https://www.linkedin.com/in/victoriaogomes/",
+              "email": "oliveiragov@vcu.edu",
+              "picture": "victoria_gomes.jpg"
             }
           ]
         },
         {
-          "title": "PH.D Students",
+          "title": "Research Assistant",
           "members": [
             {
-              "name": "Ph.D Student One",
-              "title": "Ph.D Student",
-              "website": "https://www.google.com",
-              "email": "some@mail.com",
-              "twitter": "https://x.com/some-twitter-account",
-              "picture": "rodrigo_spinola.jpg"
+              "name": "Andrew Nelson",
+              "title": "Research Assistant",
+              "linkedin": "https://www.linkedin.com/in/andrewnelsonsoftware1357/",
+              "email": "nelsonas4@vcu.edu",
+              "picture": "andrew_nelson.jpg"
             },
             {
-              "name": "Ph.D Student Two",
-              "title": "Ph.D Student",
-              "website": "https://www.google.com",
-              "email": "some@mail.com",
-              "twitter": "some-twitter-account",
-              "picture": "rodrigo_spinola.jpg"
+              "name": "Christian Novalski",
+              "title": "Research Assistant",
+              "linkedin": "https://www.linkedin.com/in/christian-novalski/",
+              "email": "novalskicj@vcu.edu",
+              "picture": "christian_novalski.jpg"
             },
             {
-              "name": "Ph.D Student Two",
-              "title": "Ph.D Student",
-              "website": "https://www.google.com",
-              "email": "some@mail.com",
-              "twitter": "some-twitter-account",
-              "picture": "rodrigo_spinola.jpg"
+              "name": "Christiana Nardi",
+              "title": "Research Assistant",
+              "linkedin": "https://www.linkedin.com/in/christiana-nardi/",
+              "email": "nardic@vcu.edu",
+              "picture": "christiana_nardi.jpg"
             },
             {
-              "name": "Ph.D Student Two",
-              "title": "Ph.D Student",
-              "website": "https://www.google.com",
-              "email": "some@mail.com",
-              "twitter": "some-twitter-account",
-              "picture": "rodrigo_spinola.jpg"
+              "name": "Delaney Selb",
+              "title": "Research Assistant",
+              "linkedin": "https://www.linkedin.com/in/delaney-selb/",
+              "email": "selbdm@vcu.edu",
+              "picture": "delaney_selb.jpg"
             },
             {
-              "name": "Ph.D Student Two",
-              "title": "Ph.D Student",
-              "website": "https://www.google.com",
-              "email": "some@mail.com",
-              "twitter": "some-twitter-account",
-              "picture": "rodrigo_spinola.jpg"
+              "name": "Lauren Viado",
+              "title": "Research Assistant",
+              "linkedin": "https://www.linkedin.com/in/lauren-viado/",
+              "email": "viadolm@vcu.edu",
+              "picture": "lauren_viado.jpg"
             }
           ]
         }
