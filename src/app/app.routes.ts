@@ -3,12 +3,12 @@ import {Research} from './research/research';
 
 export const routes: Routes = [
   {
-    path: '',
-    redirectTo: 'research',
+    path: '**',
+    redirectTo: '',
     pathMatch: 'full'
   },
   {
-    path: 'research',
+    path: '',
     component: Research
   }
 ];
