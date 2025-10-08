@@ -143,12 +143,12 @@
           {
             "name": "Agnieszka Ciborowska",
             "title": "PhD in Computer Science, Hewlett Packard",
-            "advisor": "Rodrigo Spinola"
+            "advisor": "Kostadin Damevski"
           },
           {
             "name": "Manziba Nishi",
             "title": "PhD in Computer Science, Instructor at VCU",
-            "advisor": "Rodrigo Spinola"
+            "advisor": "Kostadin Damevski"
           },
           {
             "name": "Douglas Lusa Krug",
@@ -158,17 +158,17 @@
           {
             "name": "Mia Mohammad Imran",
             "title": "PhD in Computer Science, Assistant Professor at Missouri S&T",
-            "advisor": "Rodrigo Spinola"
+            "advisor": "Kostadin Damevski"
           },
           {
             "name": "John Coogle",
             "title": "MS in Computer Science, Mailing Services, Inc.",
-            "advisor": "Rodrigo Spinola"
+            "advisor": "Kostadin Damevski"
           },
           {
             "name": "Chase Greco",
             "title": "MS in Computer Science, CarMax",
-            "advisor": "Rodrigo Spinola"
+            "advisor": "Kostadin Damevski"
           }
         ]
       }
