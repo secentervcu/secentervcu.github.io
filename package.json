@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy": "ng build --configuration production --base-href=/secentervcu.github.io/"
+    "deploy": "ng build --configuration production --base-href=/"
   },
   "prettier": {
     "printWidth": 100,
