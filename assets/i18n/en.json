@@ -219,15 +219,15 @@
           "title": "Instagram",
           "package": "fab",
           "icon": "instagram",
-          "link": "https://egr.vcu.edu/resources/ops-management/buildings/",
-          "linkText": "@selab"
+          "link": "https://www.instagram.com/secentervcu/",
+          "linkText": "@secentervcu"
         },
         {
-          "title": "Twitter",
+          "title": "Linkedin",
           "package": "fab",
-          "icon": "x-twitter",
-          "link": "https://egr.vcu.edu/resources/ops-management/buildings/",
-          "linkText": "@selab"
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/company/software-engineering-center-vcu/",
+          "linkText": "Software Engineering Center @ VCU"
         }
       ]
     },
