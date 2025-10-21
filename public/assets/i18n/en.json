@@ -87,6 +87,18 @@
           ]
         },
         {
+          "title": "Master Students",
+          "members": [
+            {
+              "name": "Terens Tare",
+              "title": "Master Student",
+              "linkedin": "https://www.linkedin.com/in/terens-tare-6ab7361ab/",
+              "email": "taret@vcu.edu",
+              "picture": "terens_tare.jpg"
+            }
+          ]
+        },
+        {
           "title": "Research Assistants",
           "members": [
             {
@@ -123,6 +135,13 @@
               "linkedin": "https://www.linkedin.com/in/lauren-viado/",
               "email": "viadolm@vcu.edu",
               "picture": "lauren_viado.jpg"
+            },
+            {
+              "name": "Ngoc Nguyen",
+              "title": "Research Assistant",
+              "linkedin": "https://www.linkedin.com/in/ngoc-nguyen-3113b127a/",
+              "email": "nguyennn9@vcu.edu",
+              "picture": "ngoc_nguyen.jpg"
             }
           ]
         }
@@ -236,23 +255,23 @@
       "questions": [
         {
           "question": "I am interested in your research topics! How can I work on my thesis with you?",
-          "answer" : "Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas."
+          "answer": "Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas."
         },
         {
           "question": "I'm missing some exams, can I still start working on the thesis?",
-          "answer" : "Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas."
+          "answer": "Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas."
         },
         {
           "question": "How can I keep in touch with relevant teachers and mentors?",
-          "answer" : "Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas."
+          "answer": "Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas."
         },
         {
           "question": "What are the procedures to be carried out on Esse3 to obtain the title?",
-          "answer" : "Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas."
+          "answer": "Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas."
         },
         {
           "question": "Should I print a copy of the thesis for the thesis advisor and mentors?",
-          "answer" : "Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas."
+          "answer": "Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas."
         }
       ]
     },
