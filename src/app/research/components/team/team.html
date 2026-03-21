@@ -5,49 +5,51 @@
     </header>
 
     @for (subsection of ('sections.team.subsections' | translate : {} : 'json'); track subsection.title) {
-      <header class="section-header">
-        <h2>{{ subsection.title | translate }}</h2>
-      </header>
-      <div class="members row gy-4 justify-content-center">
-        @for (member of subsection.members; track $index) {
-          <div class="col-lg-3 col-md-6 col-sm-8 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
-            <div class="member-data">
-              <div class="member-img">
-                <img [src]="'assets/images/team/' + member.picture" class="img-fluid" alt="">
-              </div>
-              <div class="member-info">
-                <h4>{{ member.name | translate }}</h4>
-                <span class="member-title">{{ member.title | translate }}</span>
-                <p class="member-contact">
-                  <a [href]="'mailto:' + member.email">
-                    <fa-icon class="mail-icon" [icon]="faEnvelope" data-toggle="tooltip"
-                             data-placement="bottom" [title]="member.email"/>
-                  </a>
-                  @if (member.hasOwnProperty("website")) {
-                    <a [href]="member.website">
-                      <fa-icon [icon]="faGlobe" data-toggle="tooltip" data-placement="bottom"
-                               title="Personal page"/>
+      @if (subsection.members.length){
+        <header class="section-header">
+          <h2>{{ subsection.title | translate }}</h2>
+        </header>
+        <div class="members row gy-4 justify-content-center">
+          @for (member of subsection.members; track $index) {
+            <div class="col-lg-3 col-md-6 col-sm-8 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+              <div class="member-data">
+                <div class="member-img">
+                  <img [src]="'assets/images/team/' + member.picture" class="img-fluid" alt="">
+                </div>
+                <div class="member-info">
+                  <h4>{{ member.name | translate }}</h4>
+                  <span class="member-title">{{ member.title | translate }}</span>
+                  <p class="member-contact">
+                    <a [href]="'mailto:' + member.email">
+                      <fa-icon class="mail-icon" [icon]="faEnvelope" data-toggle="tooltip"
+                               data-placement="bottom" [title]="member.email"/>
                     </a>
-                  }
-                  @if (member.hasOwnProperty("twitter")) {
-                    <a [href]="'https://x.com/' + member.twitter">
-                      <fa-icon [icon]="faXTwitter" data-toggle="tooltip"
-                               data-placement="bottom"
-                               [title]="'@' + member.twitter"/>
-                    </a>
-                  }
-                  @if (member.hasOwnProperty("linkedin")) {
-                    <a [href]="member.linkedin">
-                      <fa-icon [icon]="faLinkedin" data-toggle="tooltip" data-placement="bottom"
-                               [title]="member.linkedin"/>
-                    </a>
-                  }
-                </p>
+                    @if (member.hasOwnProperty("website")) {
+                      <a [href]="member.website">
+                        <fa-icon [icon]="faGlobe" data-toggle="tooltip" data-placement="bottom"
+                                 title="Personal page"/>
+                      </a>
+                    }
+                    @if (member.hasOwnProperty("twitter")) {
+                      <a [href]="'https://x.com/' + member.twitter">
+                        <fa-icon [icon]="faXTwitter" data-toggle="tooltip"
+                                 data-placement="bottom"
+                                 [title]="'@' + member.twitter"/>
+                      </a>
+                    }
+                    @if (member.hasOwnProperty("linkedin")) {
+                      <a [href]="member.linkedin">
+                        <fa-icon [icon]="faLinkedin" data-toggle="tooltip" data-placement="bottom"
+                                 [title]="member.linkedin"/>
+                      </a>
+                    }
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-        }
-      </div>
+          }
+        </div>
+      }
     }
 
     <header class="section-header">
