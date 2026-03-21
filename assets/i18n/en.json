@@ -89,13 +89,7 @@
         {
           "title": "Master Students",
           "members": [
-            {
-              "name": "Terens Tare",
-              "title": "Master Student",
-              "linkedin": "https://www.linkedin.com/in/terens-tare-6ab7361ab/",
-              "email": "taret@vcu.edu",
-              "picture": "terens_tare.jpg"
-            }
+
           ]
         },
         {
@@ -194,6 +188,11 @@
           {
             "name": "Chase Greco",
             "title": "MS in Computer Science, CarMax",
+            "advisor": "Kostadin Damevski"
+          },
+          {
+            "name": "Terens Tare",
+            "title": "MS in Computer Science",
             "advisor": "Kostadin Damevski"
           }
         ]
