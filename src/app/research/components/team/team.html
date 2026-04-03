@@ -20,10 +20,12 @@
                   <h4>{{ member.name | translate }}</h4>
                   <span class="member-title">{{ member.title | translate }}</span>
                   <p class="member-contact">
-                    <a [href]="'mailto:' + member.email">
-                      <fa-icon class="mail-icon" [icon]="faEnvelope" data-toggle="tooltip"
-                               data-placement="bottom" [title]="member.email"/>
-                    </a>
+                    @if (member.hasOwnProperty("email")) {
+                      <a [href]="'mailto:' + member.email">
+                        <fa-icon class="mail-icon" [icon]="faEnvelope" data-toggle="tooltip"
+                                 data-placement="bottom" [title]="member.email"/>
+                      </a>
+                    }
                     @if (member.hasOwnProperty("website")) {
                       <a [href]="member.website">
                         <fa-icon [icon]="faGlobe" data-toggle="tooltip" data-placement="bottom"
