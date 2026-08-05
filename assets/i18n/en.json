@@ -138,42 +138,42 @@
             "title": "Ph.D. in Computer Science",
             "currentJob": "Assistant Professor at Louisiana State University",
             "advisor": "Dr. Spinola",
-            "picture": "user.jpg"
+            "picture": "felipe_fronchetti.png"
           },
           {
             "name": "Miles Popiela",
             "title": "MSc in Computer Science",
             "currentJob": "Amazon Area Manager",
             "advisor": "Dr. Spinola",
-            "picture": "user.jpg"
+            "picture": "miles_popiela.png"
           },
           {
             "name": "Agnieszka Ciborowska",
             "title": "PhD in Computer Science",
             "currentJob": "Hewlett Packard",
             "advisor": "Dr. Damevski",
-            "picture": "user.jpg"
+            "picture": "agnieszka_ciborowska.png"
           },
           {
             "name": "Manziba Nishi",
             "title": "PhD in Computer Science",
             "currentJob": "Instructor at VCU",
             "advisor": "Dr. Damevski",
-            "picture": "user.jpg"
+            "picture": "manziba_nishi.png"
           },
           {
             "name": "Douglas Lusa Krug",
             "title": "PhD in Computer Science",
             "currentJob": "Professor at Instituto Federal Parana",
             "advisor": "Dr. Spinola",
-            "picture": "user.jpg"
+            "picture": "douglas_lusa_krug.png"
           },
           {
             "name": "Mia Mohammad Imran",
             "title": "PhD in Computer Science",
             "currentJob": "Assistant Professor at Missouri S&T",
             "advisor": "Dr. Damevski",
-            "picture": "user.jpg"
+            "picture": "mia_mohammad_imran.png"
           },
           {
             "name": "John Coogle",
@@ -197,35 +197,36 @@
           },
           {
             "name": "Andrew Nelson",
-            "linkedin": "https://www.linkedin.com/in/andrewnelsonsoftware1357/",
+            "title": "BsC in Computer Science",
             "email": "nelsonas4@vcu.edu",
             "picture": "andrew_nelson.jpg",
             "advisor": "Dr. Spinola"
           },
           {
             "name": "Christian Novalski",
-            "linkedin": "https://www.linkedin.com/in/christian-novalski/",
+            "title": "BsC in Computer Science",
             "email": "novalskicj@vcu.edu",
             "picture": "christian_novalski.jpg",
             "advisor": "Dr. Damevski"
           },
           {
             "name": "Delaney Selb",
-            "linkedin": "https://www.linkedin.com/in/delaney-selb/",
+            "title": "BsC in Computer Science",
             "email": "selbdm@vcu.edu",
+            "currentJob": "Bank of America",
             "picture": "delaney_selb.jpg",
             "advisor": "Dr. Spinola"
           },
           {
             "name": "Ngoc Nguyen",
-            "linkedin": "https://www.linkedin.com/in/ngoc-nguyen-3113b127a/",
+            "title": "BsC in Computer Science",
             "email": "nguyennn9@vcu.edu",
             "picture": "ngoc_nguyen.jpg",
             "advisor": "Dr. Spinola"
           },
           {
             "name": "Trang Nguyen",
-            "linkedin": "https://www.linkedin.com/in/trang-nguyen-4b9a79289/",
+            "title": "BsC in Computer Science",
             "picture": "trang_nguyen.jpg",
             "advisor": "Dr. Spinola"
           }
