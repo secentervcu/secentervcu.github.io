@@ -1,0 +1,46 @@
+@use 'colors' as *
+
+fa-icon
+  color: $se-team-member-icon-color
+  margin: 0
+  font-size: 20px
+  line-height: 1
+
+fa-icon:hover
+  color: $se-light-blue
+
+.member-data
+  height: 100%
+  text-align: center
+  overflow: hidden
+  width: fit-content
+  border-radius: 5px
+  background-color: $se-team-member-card-color
+  box-shadow: 0 0 30px rgba(15, 15, 15, 0.1)
+  transition: 0.3s
+  .member-info
+    padding: 10px 15px 10px 15px
+    h4
+      font-family: 'Roboto Bold', sans-serif
+      font-weight: 700
+      margin-bottom: 5px
+      font-size: 20px
+    .member-title
+      display: block
+      font-size: 14px
+      font-weight: 400
+    .member-contact
+      font-size: 16px
+      padding-top: 10px
+      padding-bottom: 0
+      margin-bottom: 0
+      margin-top: 0
+
+h4, span
+  color: $se-team-member-card-text-color
+
+
+@media (hover: hover) and (min-width: 800px)
+  .member-data:hover
+    transition: 0.5s
+    transform: scale(1.1)

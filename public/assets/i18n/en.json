@@ -39,13 +39,13 @@
             },
             {
               "name": "Xiwei Xuan",
-              "title": "Assistant Professor (joining Fall 2026)",
+              "title": "Assistant Professor",
               "website": "https://xiweix.github.io/",
               "picture": "xiwei_xuan.jpg"
             },
             {
               "name": "Zixuan (Steve) Feng",
-              "title": "Assistant Professor (joining Fall 2026)",
+              "title": "Assistant Professor",
               "website": "https://zixuanfeng.github.io/zixuanfeng_page/",
               "picture": "zixuan_steve_feng.jpg"
             }
@@ -101,26 +101,6 @@
         {
           "title": "Master Students",
           "members": [
-
-          ]
-        },
-        {
-          "title": "Research Assistants",
-          "members": [
-            {
-              "name": "Andrew Nelson",
-              "title": "Research Assistant",
-              "linkedin": "https://www.linkedin.com/in/andrewnelsonsoftware1357/",
-              "email": "nelsonas4@vcu.edu",
-              "picture": "andrew_nelson.jpg"
-            },
-            {
-              "name": "Christian Novalski",
-              "title": "Research Assistant",
-              "linkedin": "https://www.linkedin.com/in/christian-novalski/",
-              "email": "novalskicj@vcu.edu",
-              "picture": "christian_novalski.jpg"
-            },
             {
               "name": "Christiana Nardi",
               "title": "Research Assistant",
@@ -129,39 +109,23 @@
               "picture": "christiana_nardi.jpg"
             },
             {
-              "name": "Delaney Selb",
-              "title": "Research Assistant",
-              "linkedin": "https://www.linkedin.com/in/delaney-selb/",
-              "email": "selbdm@vcu.edu",
-              "picture": "delaney_selb.jpg"
-            },
-            {
               "name": "Lauren Viado",
               "title": "Research Assistant",
               "linkedin": "https://www.linkedin.com/in/lauren-viado/",
               "email": "viadolm@vcu.edu",
               "picture": "lauren_viado.jpg"
-            },
-            {
-              "name": "Ngoc Nguyen",
-              "title": "Research Assistant",
-              "linkedin": "https://www.linkedin.com/in/ngoc-nguyen-3113b127a/",
-              "email": "nguyennn9@vcu.edu",
-              "picture": "ngoc_nguyen.jpg"
-            },
+            }
+          ]
+        },
+        {
+          "title": "Research Assistants",
+          "members": [
             {
               "name": "Sadaf Rasooli",
               "title": "Research Assistant",
               "linkedin": "https://www.linkedin.com/in/sadaf-rasooli/",
               "email": "rasoolis@vcu.edu",
               "picture": "sadaf_rasooli.jpg"
-            },
-            {
-              "name": "Trang Nguyen",
-              "title": "Research Assistant",
-              "linkedin": "https://www.linkedin.com/in/trang-nguyen-4b9a79289/",
-              "email": "nguyent77@vcu.edu",
-              "picture": "trang_nguyen.jpg"
             }
           ]
         }
@@ -171,48 +135,99 @@
         "list": [
           {
             "name": "Felipe Fronchetti",
-            "title": "Ph.D. in Computer Science, Assistant Professor at Louisiana State University",
-            "advisor": "Rodrigo Spinola"
+            "title": "Ph.D. in Computer Science",
+            "currentJob": "Assistant Professor at Louisiana State University",
+            "advisor": "Dr. Spinola",
+            "picture": "user.jpg"
           },
           {
             "name": "Miles Popiela",
-            "title": "MSc in Computer Science, Amazon Area Manager",
-            "advisor": "Rodrigo Spinola"
+            "title": "MSc in Computer Science",
+            "currentJob": "Amazon Area Manager",
+            "advisor": "Dr. Spinola",
+            "picture": "user.jpg"
           },
           {
             "name": "Agnieszka Ciborowska",
-            "title": "PhD in Computer Science, Hewlett Packard",
-            "advisor": "Kostadin Damevski"
+            "title": "PhD in Computer Science",
+            "currentJob": "Hewlett Packard",
+            "advisor": "Dr. Damevski",
+            "picture": "user.jpg"
           },
           {
             "name": "Manziba Nishi",
-            "title": "PhD in Computer Science, Instructor at VCU",
-            "advisor": "Kostadin Damevski"
+            "title": "PhD in Computer Science",
+            "currentJob": "Instructor at VCU",
+            "advisor": "Dr. Damevski",
+            "picture": "user.jpg"
           },
           {
             "name": "Douglas Lusa Krug",
-            "title": "PhD in Computer Science, Professor at Instituto Federal Parana",
-            "advisor": "Rodrigo Spinola"
+            "title": "PhD in Computer Science",
+            "currentJob": "Professor at Instituto Federal Parana",
+            "advisor": "Dr. Spinola",
+            "picture": "user.jpg"
           },
           {
             "name": "Mia Mohammad Imran",
-            "title": "PhD in Computer Science, Assistant Professor at Missouri S&T",
-            "advisor": "Kostadin Damevski"
+            "title": "PhD in Computer Science",
+            "currentJob": "Assistant Professor at Missouri S&T",
+            "advisor": "Dr. Damevski",
+            "picture": "user.jpg"
           },
           {
             "name": "John Coogle",
-            "title": "MS in Computer Science, Mailing Services, Inc.",
-            "advisor": "Kostadin Damevski"
+            "title": "MS in Computer Science",
+            "currentJob": "Mailing Services, Inc.",
+            "advisor": "Dr. Damevski",
+            "picture": "user.jpg"
           },
           {
             "name": "Chase Greco",
-            "title": "MS in Computer Science, CarMax",
-            "advisor": "Kostadin Damevski"
+            "title": "MS in Computer Science",
+            "currentJob": "CarMax",
+            "advisor": "Dr. Damevski",
+            "picture": "user.jpg"
           },
           {
             "name": "Terens Tare",
             "title": "MS in Computer Science",
-            "advisor": "Kostadin Damevski"
+            "advisor": "Dr. Damevski",
+            "picture": "terens_tare.jpg"
+          },
+          {
+            "name": "Andrew Nelson",
+            "linkedin": "https://www.linkedin.com/in/andrewnelsonsoftware1357/",
+            "email": "nelsonas4@vcu.edu",
+            "picture": "andrew_nelson.jpg",
+            "advisor": "Dr. Spinola"
+          },
+          {
+            "name": "Christian Novalski",
+            "linkedin": "https://www.linkedin.com/in/christian-novalski/",
+            "email": "novalskicj@vcu.edu",
+            "picture": "christian_novalski.jpg",
+            "advisor": "Dr. Damevski"
+          },
+          {
+            "name": "Delaney Selb",
+            "linkedin": "https://www.linkedin.com/in/delaney-selb/",
+            "email": "selbdm@vcu.edu",
+            "picture": "delaney_selb.jpg",
+            "advisor": "Dr. Spinola"
+          },
+          {
+            "name": "Ngoc Nguyen",
+            "linkedin": "https://www.linkedin.com/in/ngoc-nguyen-3113b127a/",
+            "email": "nguyennn9@vcu.edu",
+            "picture": "ngoc_nguyen.jpg",
+            "advisor": "Dr. Spinola"
+          },
+          {
+            "name": "Trang Nguyen",
+            "linkedin": "https://www.linkedin.com/in/trang-nguyen-4b9a79289/",
+            "picture": "trang_nguyen.jpg",
+            "advisor": "Dr. Spinola"
           }
         ]
       }

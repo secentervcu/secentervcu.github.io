@@ -1,0 +1,42 @@
+<div class="member-data">
+  <div class="member-img">
+    <img [src]="'assets/images/team/' + picture()" class="img-fluid" alt="">
+  </div>
+  <div class="member-info">
+    <h4>{{ name() }}</h4>
+    <span class="member-title">{{ title() }}</span>
+    @if (currentJob(); as memberCurrentJob) {
+      <span class="member-title">{{ memberCurrentJob }}</span>
+    }
+    @if (advisor(); as memberAdvisor) {
+      <span class="member-title">Advisor: {{ memberAdvisor }}</span>
+    }
+    <p class="member-contact">
+      @if (email(); as memberEmail) {
+        <a [href]="'mailto:' + memberEmail">
+          <fa-icon class="mail-icon" [icon]="faEnvelope" data-toggle="tooltip"
+                   data-placement="bottom" [title]="memberEmail"/>
+        </a>
+      }
+      @if (website(); as memberWebsite) {
+        <a [href]="memberWebsite">
+          <fa-icon [icon]="faGlobe" data-toggle="tooltip" data-placement="bottom"
+                   title="Personal page"/>
+        </a>
+      }
+      @if (twitter(); as memberTwitter) {
+        <a [href]="'https://x.com/' + memberTwitter">
+          <fa-icon [icon]="faXTwitter" data-toggle="tooltip"
+                   data-placement="bottom"
+                   [title]="'@' + memberTwitter"/>
+        </a>
+      }
+      @if (linkedin(); as memberLinkedin) {
+        <a [href]="memberLinkedin">
+          <fa-icon [icon]="faLinkedin" data-toggle="tooltip" data-placement="bottom"
+                   [title]="memberLinkedin"/>
+        </a>
+      }
+    </p>
+  </div>
+</div>
