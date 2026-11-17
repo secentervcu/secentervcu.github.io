@@ -41,12 +41,14 @@
               "name": "Xiwei Xuan",
               "title": "Assistant Professor",
               "website": "https://xiweix.github.io/",
+              "email": "xuanx@vcu.edu",
               "picture": "xiwei_xuan.jpg"
             },
             {
               "name": "Zixuan (Steve) Feng",
               "title": "Assistant Professor",
               "website": "https://zixuanfeng.github.io/zixuanfeng_page/",
+              "email": "fengz3@vcu.edu",
               "picture": "zixuan_steve_feng.jpg"
             }
           ]
@@ -54,6 +56,14 @@
         {
           "title": "PhD Students",
           "members": [
+            {
+              "name": "Alessandra Parziale",
+              "title": "Visiting PhD Student",
+              "linkedin": "https://www.linkedin.com/in/alessandra-parziale/",
+              "email": "alessandra.parziale@gssi.it",
+              "website": "https://alessandraparziale.github.io/",
+              "picture": "alessandra_parziale.png"
+            },
             {
               "name": "Bruno Matias",
               "title": "PhD Student",
@@ -69,11 +79,33 @@
               "picture": "david_ferrufino.jpg"
             },
             {
+              "name": "Jimmy Le",
+              "title": "PhD Student",
+              "linkedin": "https://www.linkedin.com/in/jimmy-le-vcu/",
+              "email": "lejp3@vcu.edu",
+              "picture": "user.jpg"
+            },
+            {
               "name": "Juan Valentin Cano",
               "title": "PhD Student",
               "linkedin": "https://www.linkedin.com/in/juan-valentin-guerrero-cano/",
+              "website": "https://vgueca.github.io/",
               "email": "guerrerocajv@vcu.edu",
               "picture": "valentin_guerrero.jpg"
+            },
+            {
+              "name": "Maria Eduarda Almeida",
+              "title": "PhD Student",
+              "linkedin": "https://www.linkedin.com/in/maria-eduarda-nunes-634799212/",
+              "email": "m.eduardakl@gmail.com",
+              "picture": "maria_eduarda_almeida.png"
+            },
+            {
+              "name": "Martina De Lucia",
+              "title": "PhD Student",
+              "linkedin": "https://www.linkedin.com/in/martina-de-lucia-087991245/",
+              "email": "m.delucia18@studenti.unisa.it",
+              "picture": "martina_de_lucia.png"
             },
             {
               "name": "Rahat Rahman",
@@ -83,16 +115,17 @@
               "picture": "rahat_rahman.jpg"
             },
             {
-              "name": "Rodrigo Sotolani",
+              "name": "Rodrigo Sotollano",
               "title": "PhD Student",
               "linkedin": "https://www.linkedin.com/in/rsotolani/",
               "email": "silvasotolr@vcu.edu",
-              "picture": "rodrigo_sotolani.jpg"
+              "picture": "rodrigo_sottolano.jpg"
             },
             {
               "name": "Victória Gomes",
               "title": "PhD Student",
               "linkedin": "https://www.linkedin.com/in/victoriaogomes/",
+              "website": "https://victoriagomes.dev/",
               "email": "oliveiragov@vcu.edu",
               "picture": "victoria_gomes.jpg"
             }
@@ -102,22 +135,29 @@
           "title": "Master Students",
           "members": [
             {
+              "name": "Ali Gok",
+              "title": "Master Student",
+              "linkedin": "https://www.linkedin.com/in/ali-mert-gok/",
+              "email": "goeka@vcu.edu",
+              "picture": "ali_gok.png"
+            },
+            {
               "name": "Christiana Nardi",
-              "title": "Research Assistant",
+              "title": "Master Student",
               "linkedin": "https://www.linkedin.com/in/christiana-nardi/",
               "email": "nardic@vcu.edu",
               "picture": "christiana_nardi.jpg"
             },
             {
               "name": "Lauren Viado",
-              "title": "Research Assistant",
+              "title": "Master Student",
               "linkedin": "https://www.linkedin.com/in/lauren-viado/",
               "email": "viadolm@vcu.edu",
               "picture": "lauren_viado.jpg"
             },
             {
               "name": "Taksheel Shetty",
-              "title": "Research Assistant",
+              "title": "Master Student",
               "linkedin": "www.linkedin.com/in/taksheel-shetty",
               "email": "shettyt@vcu.edu",
               "picture": "taksheel_shetty.jpg"
@@ -127,6 +167,13 @@
         {
           "title": "Research Assistants",
           "members": [
+            {
+              "name": "Eva Wiznerowicz",
+              "title": "Research Assistant",
+              "linkedin": "https://www.linkedin.com/in/eva-wiznerowicz/",
+              "email": "wiznerowiczeb@vcu.edu",
+              "picture": "eva_wiznerowicz.png"
+            },
             {
               "name": "Sadaf Rasooli",
               "title": "Research Assistant",
