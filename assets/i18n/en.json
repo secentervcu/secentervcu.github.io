@@ -142,13 +142,6 @@
               "picture": "ali_gok.png"
             },
             {
-              "name": "Christiana Nardi",
-              "title": "Master Student",
-              "linkedin": "https://www.linkedin.com/in/christiana-nardi/",
-              "email": "nardic@vcu.edu",
-              "picture": "christiana_nardi.jpg"
-            },
-            {
               "name": "Lauren Viado",
               "title": "Master Student",
               "linkedin": "https://www.linkedin.com/in/lauren-viado/",
@@ -262,6 +255,13 @@
             "email": "novalskicj@vcu.edu",
             "picture": "christian_novalski.jpg",
             "advisor": "Dr. Damevski"
+          },
+          {
+            "name": "Christiana Nardi",
+            "title": "BsC in Computer Science",
+            "linkedin": "https://www.linkedin.com/in/christiana-nardi/",
+            "email": "nardic@vcu.edu",
+            "picture": "christiana_nardi.jpg"
           },
           {
             "name": "Delaney Selb",
